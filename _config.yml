@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Amirhosein Ebrahimi"
-  avatar           : "Profile.png"
+  avatar           : "images/Profile.png"
   bio              : "B.Sc Student in Computer Engineering at Shahid Beheshti University"
   location         : "Tehran/ Iran"
   employer         :
