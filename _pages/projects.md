@@ -1,4 +1,3 @@
-![ResNet](https://github.com/EbrahimiAmirHosein/EbrahimiAmirhosein.github.io/assets/35047853/8a7674d2-3b1f-4ced-a19c-6ba603b5ad0c)---
 layout: archive
 title: "projects"
 permalink: /projects/
