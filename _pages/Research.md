@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /research/
+permalink: /Research/
 author_profile: true
 ---
 ## Research Assistant at [IPM Institute for Research in Fundamental Sciences](http://www.ipm.ac.ir/)
