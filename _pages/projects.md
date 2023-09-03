@@ -1,9 +1,9 @@
+---
 layout: archive
-title: "projects"
+title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
-
 |     |     |     |
 | --- | --- | --- |
 | ![](/images/motion.png) [** Motion-discriminator **](https://github.com/EbrahimiAmirHosein/Motion-discriminator) <br>Theoretical implications for cognitive and neural models of simple decision-making to check whether people move rapidly toward the optimal policy or not.. | ![](/images/vuln.png) [**Vulnerability-Detection using machine learning approaches**](https://github.com/EbrahimiAmirHosein/Vulnerability-Detection) <br> Detecting Vulnerabilities in cyber security by utilizing machine learning techniques to identify and mitigate potential weaknesses in digital systems.  | ![](/images/job.png) [**Stereotypical Job beliefs**](https://github.com/EbrahimiAmirHosein/Stereotypical-beliefs-about-jobs) <br>In this assignment, a list of jobs will be shown randomly to the individual and the subject will be asked to specify the degree of masculinity or femininity of each job on a continuum using mouse movement.|
