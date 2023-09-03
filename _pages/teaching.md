@@ -10,8 +10,8 @@ redirect_from:
 ## TEACHING EXPERIENCE
 
 Shahid Behehsti University, Computer Engineering Department
--  Computer Architecture, Microprocessors and Assembly [Dara Rahmati](https://scholar.google.com/citations?user=xwJgOl0AAAAJ&hl=en)
--  Microprocessors and Assembly [Seyed-Hosein Attarzadeh-Niaki](https://scholar.google.de/citations?user=C51ASWgAAAAJ&hl=en)
+-  Computer Architecture, Microprocessors and Assembly, [Dara Rahmati](https://scholar.google.com/citations?user=xwJgOl0AAAAJ&hl=en)
+-  Microprocessors and Assembly, [Seyed-Hosein Attarzadeh-Niaki](https://scholar.google.de/citations?user=C51ASWgAAAAJ&hl=en)
 
 Teaching Assistant at [OnAcademy](https://onacademy24.com)
 -  Python and R
