@@ -14,7 +14,7 @@ redirect_from:
 ul.twocol { width: 110%; }
 </style>
 
-**Hi!** I'm Amirhossein Ebrahimi, a passionate Master's student in Computer Engineering, specializing in Artificial Intelligence. I recently completed my Bachelor's at Shahid Beheshti University and am thrilled to continue my academic journey at the University of Ottawa, where I’ll be working under the guidance of Professor [Arvind Mer](https://scholar.google.com/citations?user=Xy6KKl8AAAAJ&hl=en).  My main interest is on leveraging AI for innovative solutions in healthcare, aiming to achieve the highest possible social impact.
+**Hi!** I'm Amirhossein Ebrahimi, a Master's student in Biomedical Engineering, specializing in Artificial Intelligence. I recently completed my Bachelor's at Shahid Beheshti University and am thrilled to continue my academic journey at the University of Ottawa, where I’ll be working under the guidance of Professor [Arvind Mer](https://scholar.google.com/citations?user=Xy6KKl8AAAAJ&hl=en).  My main interest is on leveraging AI for innovative solutions in healthcare, aiming to achieve the highest possible social impact.
 
 Additionally, I have a strong interest in the following: 
 
