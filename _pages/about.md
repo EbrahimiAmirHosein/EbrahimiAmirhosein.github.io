@@ -14,7 +14,8 @@ redirect_from:
 ul.twocol { width: 110%; }
 </style>
 
-**Hi!** I'm Amirhosein Ebrahimi, an undergraduate student in Computer Engineering with a focus on Artificial Intelligence. I have completed my Bachelor's program at Shahid Beheshti University. I am excited to embark on my Master's journey at the University of Ottawa, where I will be working under the supervision of Professor [Arvind&nbsp;Mer](https://scholar.google.com/citations?user=Xy6KKl8AAAAJ&hl=en).
+**Hi!** I'm Amirhossein Ebrahimi, a passionate Master's student in Computer Engineering, specializing in Artificial Intelligence. I recently completed my Bachelor's at Shahid Beheshti University and am thrilled to continue my academic journey at the University of Ottawa, where I’ll be working under the guidance of Professor [Arvind Mer](https://scholar.google.com/citations?user=Xy6KKl8AAAAJ&hl=en).  My main interest is on leveraging AI for innovative solutions in healthcare, aiming to achieve the highest possible social impact.
+
 Additionally, I have a strong interest in the following: 
 
 <ul class='twocol' style="margin-top: -1%;" markdown='1'>
