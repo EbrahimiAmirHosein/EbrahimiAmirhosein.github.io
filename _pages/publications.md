@@ -4,13 +4,35 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
--  G. Wu, A. Zaker, **A.H Ebrahimi**, S. Tripathi, A. Mer - 2024 - Bioinformatics Advances - Text-Mining Based Feature Selection for Anticancer Drug Response Prediction - [Accepted](https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae047/7644335)
-  
--  S.Alipour, **A.H Ebrahimi** - 2024 - [ACM International Conference on
-Information and Knowledge Managemen](https://cikm2024.org/3rd) - *A new approach for minimum dominating set problem*  - **submitted** - [preprint](https://drive.google.com/file/d/1uzFTRf3CeWSN7075rZLWK_YzQtbxNmG1/view?usp=sharing)
 
--  **A.H Ebrahimi**, H. Vafaei, M. Asghari, D. Rahmati - 2022 - Neurocomputing - HA-BSN: Hardware acceleration of bio-SFA and bio-NICA, biological neural networks, on FPGA with HLS, [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4517541)
+### Book Chapter
+- **First Course in Machine Learning: Dimensionality Reduction in Machine Learning**  
+  Chapters: 1, 3 - Published by Elsevier, 2025
 
--  Chapter of Book} - *First Course In Machine Learning: Dimension Reduction & Feature Selection* - Chapters: 1  - Elsevier, 2023 - [Accept](https://drive.google.com/file/d/1P1r_bQmCBwmaPwUHCXir6Q31Vk4SI3u9/view?usp=drive_link) in publishing process
+---
 
--  **A.H Ebrahimi**, H. Vafaei, D. Rahmati - 2022 - National Informatics Conference of Iran (NIC) - *Estimating stochastic model’s parameters using residual neural networks* - [Accepted-p128](https://cs.ipm.ac.ir/nic/1401/files/Final_proceedings_NIC1401.pdf)
+### Journal Articles
+- **Text-Mining Based Feature Selection for Anticancer Drug Response Prediction**  
+  G. Wu, A. Zaker, **A.H. Ebrahimi**, S. Tripathi, A. Mer  
+  *Bioinformatics Advances*, 2024  
+  [Read more](https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae047/7644335)
+
+- **HA-BSN: Hardware Acceleration of Bio-SFA and Bio-NICA, Biological Neural Networks, on FPGA with HLS**  
+  **A.H. Ebrahimi**, H. Vafaei, M. Asghari, D. Rahmati  
+  *Neurocomputing*, 2022  
+  [Read more](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4517541)
+
+---
+
+### Conference Proceedings
+- **A New Approach for Minimum Dominating Set Problem**  
+  S. Alipour, **A.H. Ebrahimi**  
+  *ACM International Conference on Information and Knowledge Management*, 2024  
+  [Read more](https://drive.google.com/file/d/1uzFTRf3CeWSN7075rZLWK_YzQtbxNmG1/view?usp=sharing)
+
+- **Estimating Stochastic Model Parameters Using Residual Neural Networks**  
+  **A.H. Ebrahimi**, H. Vafaei, D. Rahmati  
+  *National Informatics Conference of Iran (NIC)*, 2022  
+  [Page 128](https://cs.ipm.ac.ir/nic/1401/files/Final_proceedings_NIC1401.pdf)
+
+---
