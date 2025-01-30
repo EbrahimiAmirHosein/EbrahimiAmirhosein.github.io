@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Amirhosein Ebrahimi"
-  avatar           : "images/mstile-144x144.png"
+  avatar           : "Profile.png"
   bio              : "M.A.Sc. in Biomedical Engineering with a Specialization in Bioinformatics"
   location         : "Ottawa / Canada"
   employer         : 
@@ -115,6 +115,8 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  favicon          : "/images/favicon.ico"
+
 
 
 # Reading Files
