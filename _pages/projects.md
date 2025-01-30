@@ -300,6 +300,9 @@ author_profile: true
 	</div>
 </div>
 
+<button id="loadMoreBtn" class="load-more-btn">Load More</button>
+
+
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const loadMoreBtn = document.getElementById('loadMoreBtn');
