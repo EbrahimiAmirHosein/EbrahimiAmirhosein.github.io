@@ -150,7 +150,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/ResNet.png" alt="Parameter Estimation using Residual Neural Network" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Parameter Estimation using Residual Neural Network</div>
@@ -161,7 +161,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/nn.png" alt="Comment Verification Using Neural Networks" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Comment Verification Using Neural Networks</div>
@@ -172,7 +172,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/GAN.png" alt="Generative Adversarial Networks (GANs) Practice" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Generative Adversarial Networks (GANs) Practice</div>
@@ -182,7 +182,7 @@ author_profile: true
 </div>
 
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/graphs.png" alt="Minimum Dominating Set in Graphs" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Minimum Dominating Set in Graphs</div>
@@ -192,7 +192,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/RS-GNN.png" alt="Recommender System" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Recommender System</div>
@@ -201,7 +201,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/EmotionR.jpg" alt="Face Recognition" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Face Recognition using ResNet</div>
@@ -210,7 +210,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/motion.png" alt="Motion Discriminator" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Motion Discriminator</div>
@@ -219,7 +219,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/job.png" alt="Stereotypical Job Beliefs" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Stereotypical Job Beliefs</div>
@@ -229,7 +229,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/Temp.png" alt="Temporal Bisection" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Temporal Bisection</div>
@@ -238,7 +238,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/winsc.png" alt="Wisconsin Task" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Wisconsin Task</div>
@@ -249,7 +249,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/svd.png" alt="Singular Value Decomposition" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Singular Value Decomposition</div>
@@ -260,7 +260,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/sig.png" alt="Signal Generator - ARM STM32" class="project-image">
 	<div class="project-content">
 		<div class="project-title">Signal Generator - ARM STM32</div>
@@ -270,7 +270,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/timer.png" alt="8086 Timer" class="project-image">
 	<div class="project-content">
 		<div class="project-title">8086 Timer</div>
@@ -279,7 +279,7 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
+<div class="project-card">
 	<img src="/images/pong.png" alt="PONG Game" class="project-image">
 	<div class="project-content">
 		<div class="project-title">PONG Game</div>
