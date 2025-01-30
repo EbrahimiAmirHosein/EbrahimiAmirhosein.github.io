@@ -4,28 +4,7 @@ title: "🚀 Projects"
 permalink: /projects/
 author_profile: true
 ---
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const loadMoreBtn = document.getElementById('loadMoreBtn');
-  const hiddenProjects = document.querySelectorAll('.project-card.hidden');
-  let currentIndex = 0;
-  // Number of projects to show each time
-  const loadCount = 6;  // or any batch size you prefer
-  
-  loadMoreBtn.addEventListener('click', function () {
-    // Reveal the next batch of hidden projects
-    for (let i = currentIndex; i < currentIndex + loadCount && i < hiddenProjects.length; i++) {
-      hiddenProjects[i].classList.remove('hidden');
-    }
-    
-    currentIndex += loadCount;
-    // If no more hidden projects, hide the button
-    if (currentIndex >= hiddenProjects.length) {
-      loadMoreBtn.style.display = 'none';
-    }
-  });
-});
-</script>
+
 
 <style>
   .projects-container {
@@ -35,83 +14,72 @@ document.addEventListener('DOMContentLoaded', function () {
     padding: 20px;
   }
 
-  .project-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    background: #fff;
-    padding-bottom: 15px;
-    text-align: center;
-    display: block;
-  }
+.project-card {
+  /* Make the card behave like a vertical flex container */
+  display: flex;
+  flex-direction: column;
+  
+  /* Optional: fix the card height so all are uniform. 
+     Adjust the value as needed to fit your text + button. */
+  min-height: 370px; /* or height: 370px; if you want a strict fixed height */
+}
 
   .project-card:hover {
     transform: scale(1.05);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   }
 
-  .project-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-  }
+.project-image {
+  /* Keep the image height as is or adjust to fit your design */
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
 
-  .project-content {
-    padding: 15px;
-  }
 
-  .project-title {
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #2c3e50;
-    margin-bottom: 10px;
-  }
+.project-content {
+  /* Expand to fill the remaining vertical space
+     and push the button to the bottom */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  padding: 15px;
+}
 
-  .project-description {
-    font-size: 0.9em;
-    color: #7f8c8d;
-    margin-bottom: 10px;
-  }
+.project-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
 
-  .project-link {
-    display: inline-block;
-    padding: 8px 12px;
-    font-size: 0.9em;
-    color: white;
-    background-color: #3498db;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: background 0.3s ease-in-out;
-  }
 
-  .project-link:hover {
-    background-color: #2980b9;
-  }
+.project-description {
+  font-size: 0.9em;
+  color: #7f8c8d;
+  /* Give some bottom margin if needed */
+  margin-bottom: 10px;
+}
+.project-link {
+  /* Button at the bottom of .project-content */
+  margin-top: auto; /* push it to bottom if there's extra space */
+  align-self: flex-start; /* or center, or flex-end, depending on your preference */
+  padding: 8px 12px;
+  font-size: 0.9em;
+  color: white;
+  background-color: #3498db;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
 
-  .hidden {
-    display: none !important;
-  }
-  .load-more-btn {
-    display: block;
-    margin: 30px auto;
-    padding: 12px 20px;
-    font-size: 1em;
-    font-weight: bold;
-    color: white;
-    background-color: #27ae60;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
-  }
 
-  .load-more-btn:hover {
-    background-color: #219150;
-  }
+.project-link:hover {
+  background-color: #2980b9;
+}
+
 </style>
 
 <div class="projects-container" id="projectsContainer">
@@ -321,7 +289,5 @@ document.addEventListener('DOMContentLoaded', function () {
 			Project</a>
 	</div>
 </div>
-
-<button id="loadMoreBtn" class="load-more-btn">Load More</button>
 
 
