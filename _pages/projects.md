@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "🚀 Projects"
+permalink: /projects/
+author_profile: true
+---
+
 <style>
   .projects-container {
     display: grid;
