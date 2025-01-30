@@ -4,6 +4,28 @@ title: "🚀 Projects"
 permalink: /projects/
 author_profile: true
 ---
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const loadMoreBtn = document.getElementById('loadMoreBtn');
+  const hiddenProjects = document.querySelectorAll('.project-card.hidden');
+  let currentIndex = 0;
+  // Number of projects to show each time
+  const loadCount = 6;  // or any batch size you prefer
+  
+  loadMoreBtn.addEventListener('click', function () {
+    // Reveal the next batch of hidden projects
+    for (let i = currentIndex; i < currentIndex + loadCount && i < hiddenProjects.length; i++) {
+      hiddenProjects[i].classList.remove('hidden');
+    }
+    
+    currentIndex += loadCount;
+    // If no more hidden projects, hide the button
+    if (currentIndex >= hiddenProjects.length) {
+      loadMoreBtn.style.display = 'none';
+    }
+  });
+});
+</script>
 
 <style>
   .projects-container {
@@ -302,27 +324,4 @@ author_profile: true
 
 <button id="loadMoreBtn" class="load-more-btn">Load More</button>
 
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const loadMoreBtn = document.getElementById('loadMoreBtn');
-  const hiddenProjects = document.querySelectorAll('.project-card.hidden');
-  let currentIndex = 0;
-  // Number of projects to show each time
-  const loadCount = 6;  // or any batch size you prefer
-  
-  loadMoreBtn.addEventListener('click', function () {
-    // Reveal the next batch of hidden projects
-    for (let i = currentIndex; i < currentIndex + loadCount && i < hiddenProjects.length; i++) {
-      hiddenProjects[i].classList.remove('hidden');
-    }
-    
-    currentIndex += loadCount;
-    // If no more hidden projects, hide the button
-    if (currentIndex >= hiddenProjects.length) {
-      loadMoreBtn.style.display = 'none';
-    }
-  });
-});
-</script>
 
