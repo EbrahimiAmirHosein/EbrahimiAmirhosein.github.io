@@ -12,9 +12,13 @@ author_profile: true
     gap: 20px;
     padding: 20px;
   }
-  .projects-container.expanded .hidden {
-    display: block !important;
-  }
+.hidden {
+  display: none !important;  /* Hides initially */
+}
+
+.projects-container.expanded .hidden {
+  display: block !important; /* Reveals hidden projects when expanded */
+}
   .project-card {
     position: relative;
     overflow: hidden;
@@ -71,9 +75,6 @@ author_profile: true
     background-color: #2980b9;
   }
 
-  .hidden {
-    display: none; /* Hide extra projects initially */
-  }
 
   .load-more-btn {
     display: block;
@@ -310,6 +311,7 @@ author_profile: true
 <script>
   document.getElementById("loadMoreBtn").addEventListener("click", function () {
     document.getElementById("projectsContainer").classList.add("expanded");
-    this.style.display = "none";
+    this.style.display = "none"; // Hide button after expanding
   });
 </script>
+
