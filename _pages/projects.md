@@ -5,6 +5,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+
+
+
+
 <style>
   .projects-container {
     display: grid;
@@ -19,11 +23,11 @@ author_profile: true
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: none; /* Initially hide projects */
   }
   
-  .project-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  .project-card.visible {
+    display: block; /* Only visible projects will be shown */
   }
   
   .project-image {
@@ -65,11 +69,30 @@ author_profile: true
   .project-link:hover {
     background-color: #2980b9;
   }
+  
+  /* Load More Button */
+  .load-more-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #27ae60;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+
+  .load-more-btn:hover {
+    background-color: #219150;
+  }
 </style>
 
-<div class="projects-container">
-
-  <div class="project-card">
+<div class="projects-container" id="projectsContainer">
+  <!-- ALL PROJECTS (Initially Hidden) -->
+    <div class="project-card">
     <img src="/images/birds.jpeg" alt="Bird Classification" class="project-image">
     <div class="project-content">
       <div class="project-title">Sound Bird Classification</div>
@@ -259,3 +282,36 @@ author_profile: true
   </div>
 
 </div>
+
+<!-- Load More Button -->
+<button class="load-more-btn" id="loadMoreBtn">🔽 Load More</button>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let projects = document.querySelectorAll(".project-card");
+    let loadMoreBtn = document.getElementById("loadMoreBtn");
+    let visibleProjects = 3; // Number of projects visible initially
+
+    function showMoreProjects() {
+      let hiddenProjects = Array.from(projects).filter(project => !project.classList.contains("visible"));
+      let nextProjects = hiddenProjects.slice(0, 3); // Show next 3 projects
+
+      nextProjects.forEach(project => project.classList.add("visible"));
+
+      // Hide button if all projects are displayed
+      if (Array.from(projects).every(project => project.classList.contains("visible"))) {
+        loadMoreBtn.style.display = "none";
+      }
+    }
+
+    // Initially show only the first few projects
+    projects.forEach((project, index) => {
+      if (index < visibleProjects) {
+        project.classList.add("visible");
+      }
+    });
+
+    // Load More Button Click Event
+    loadMoreBtn.addEventListener("click", showMoreProjects);
+  });
+</script>
