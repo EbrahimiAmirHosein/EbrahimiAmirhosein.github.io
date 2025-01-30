@@ -100,7 +100,7 @@ author_profile: true
     <img src="/images/converter.png" alt="Microscopic Image Converter" class="project-image">
     <div class="project-content">
       <div class="project-title">Microscopic Image Converter</div>
-      <div class="project-description">Firefly tool to convert microscopic images (MRXS to SVS).</div>
+      <div class="project-description">User Friendly tool to convert microscopic images (MRXS to SVS).</div>
       <a href="https://github.com/EbrahimiAmirHosein/MRXS_to_SVS" class="project-link">🔗 View Project</a>
     </div>
   </div>
@@ -147,6 +147,114 @@ author_profile: true
       <div class="project-title">Bio-SFA & Bio-NICA Accelerator</div>
       <div class="project-description">Developing hardware accelerators for bio-inspired networks.</div>
       <a href="https://github.com/EbrahimiAmirHosein/Bio-SFA-bio-NICA-accelerator" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+   <div class="project-card">
+    <img src="/images/ResNet.png" alt="Parameter Estimation using Residual Neural Network" class="project-image">
+    <div class="project-content">
+      <div class="project-title">Parameter Estimation using Residual Neural Network</div>
+      <div class="project-description">A practical approach for estimating stochastic processes, even when likelihood functions are unknown.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/Parameter-estimation-using-residual-neural-network" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/graphs.png" alt="Minimum Dominating Set in Graphs" class="project-image">
+    <div class="project-content">
+      <div class="project-title">Minimum Dominating Set in Graphs</div>
+      <div class="project-description">A novel approach to solving the MDS and MTDS problems efficiently.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/Distributed-algorithms-for-minimum-dominating-set" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/Temp.png" alt="Temporal Bisection" class="project-image">
+    <div class="project-content">
+      <div class="project-title">Temporal Bisection</div>
+      <div class="project-description">Studying time perception by measuring and comparing stimulus durations.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/Temporal-Bisection" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/winsc.png" alt="Wisconsin Task" class="project-image">
+    <div class="project-content">
+      <div class="project-title">Wisconsin Task</div>
+      <div class="project-description">A neuropsychological test assessing cognitive flexibility, abstract thinking, and working memory.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/Wisconsin-Card-Sorting-Test" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/svd.png" alt="Singular Value Decomposition" class="project-image">
+    <div class="project-content">
+      <div class="project-title">Singular Value Decomposition</div>
+      <div class="project-description">Implementation of the SVD algorithm in C for efficient matrix factorization.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/Singular-value-decomposition" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/sig.png" alt="Signal Generator - ARM STM32" class="project-image">
+    <div class="project-content">
+      <div class="project-title">Signal Generator - ARM STM32</div>
+      <div class="project-description">Designing a signal generator using ARM STM32 microcontrollers.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/Signal-Generator-ARM-stm32" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/timer.png" alt="8086 Timer" class="project-image">
+    <div class="project-content">
+      <div class="project-title">8086 Timer</div>
+      <div class="project-description">Designing a programmable timer in the 8086 assembly using Proteus.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/8086-Timer-In-Proteus" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/pong.png" alt="PONG Game" class="project-image">
+    <div class="project-content">
+      <div class="project-title">PONG Game</div>
+      <div class="project-description">A classic Pong game implemented in 8086 assembly using the Emu8086 framework.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/PONG-Game-in-8086-assembly" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/nn.png" alt="Comment Verification Using Neural Networks" class="project-image">
+    <div class="project-content">
+      <div class="project-title">Comment Verification Using Neural Networks</div>
+      <div class="project-description">Developing a system to verify user comments on Digikala using deep learning techniques.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/comment_verification" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/cancer.png" alt="Feature Selection and Cancer Detection" class="project-image">
+    <div class="project-content">
+      <div class="project-title">Feature Selection and Cancer Detection</div>
+      <div class="project-description">Using machine learning models and feature selection techniques to detect cancer.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/Feature-Selection-and-Cancer-Detection/tree/main" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/GAN.png" alt="Generative Adversarial Networks (GANs) Practice" class="project-image">
+    <div class="project-content">
+      <div class="project-title">Generative Adversarial Networks (GANs) Practice</div>
+      <div class="project-description">Implementing different GAN architectures and training methodologies.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/GAN-practice" class="project-link">🔗 View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="/images/Ard.png" alt="Arduino Projects" class="project-image">
+    <div class="project-content">
+      <div class="project-title">Arduino Projects</div>
+      <div class="project-description">A collection of projects implemented using Arduino Uno.</div>
+      <a href="https://github.com/EbrahimiAmirHosein/arduino-exercise" class="project-link">🔗 View Project</a>
     </div>
   </div>
 
