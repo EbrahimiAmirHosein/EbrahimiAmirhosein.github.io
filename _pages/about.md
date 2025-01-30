@@ -17,15 +17,13 @@ ul.twocol { width: 110%; }
 .intro { font-size: 1.2em; font-weight: bold; color: #0f2b46; }
 </style>
 
-<div align="center">
-  <h1 class="header-color">Welcome!</h1>
-</div>
+
 
 <p class="intro">
 👋 Hi, I'm <span class="highlight">Amirhossein Ebrahimi</span>, a Master's student in Biomedical Engineering, with a deep passion for <span class="highlight">Artificial Intelligence in Healthcare</span>.
 </p>
 
-I recently earned my Bachelor's degree from **Shahid Beheshti University**, and now, I'm thrilled to embark on my next academic chapter at the **University of Ottawa**. Under the mentorship of [Professor Arvind Mer](https://scholar.google.com/citations?user=Xy6KKl8AAAAJ&hl=en), I am diving into cutting-edge research at the intersection of **AI and healthcare**, aiming to drive meaningful **social impact**.
+I earned my Bachelor's degree from **Shahid Beheshti University**, and now, I'm thrilled to embark on my next academic chapter at the **University of Ottawa**. Under the mentorship of [Professor Arvind Mer](https://scholar.google.com/citations?user=Xy6KKl8AAAAJ&hl=en), I am diving into cutting-edge research at the intersection of **AI and healthcare**, aiming to drive meaningful **social impact**.
 
 ### 🌟 Research Interests
 I am particularly fascinated by the transformative power of AI in medical applications, with a keen focus on:
