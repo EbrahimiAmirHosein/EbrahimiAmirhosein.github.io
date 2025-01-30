@@ -96,6 +96,15 @@ author_profile: true
 	</div>
 </div>
 
+<div class="project-card">
+	<img src="/images/text-feature.jpeg" alt="Text-Mining Based Feature Selection" class="project-image">
+	<div class="project-content">
+		<div class="project-title">Text-Mining Based Feature Selection for Anticancer Drug Response Prediction</div>
+		<div class="project-description">In this study, we utilize features (genes) extracted using the text-mining of scientific literatures. Using two independent cancer pharmacogenomic datasets, we demonstrate that text-mining-based features outperform traditional feature selection techniques in machine learning tasks.</div>
+		<a href="https://github.com/EbrahimiAmirHosein/text_features" class="project-link">🔗 View
+			Project</a>
+	</div>
+</div>
 
 <div class="project-card">
 	<img src="/images/cancer.png" alt="Feature Selection and Cancer Detection" class="project-image">
