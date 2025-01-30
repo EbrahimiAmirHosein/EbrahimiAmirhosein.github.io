@@ -12,18 +12,61 @@ author_profile: true
     gap: 20px;
     padding: 20px;
   }
-  
+
   .project-card {
     position: relative;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: #fff;
+    padding-bottom: 15px;
+    text-align: center;
   }
-  
+
   .project-card:hover {
     transform: scale(1.05);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .project-content {
+    padding: 15px;
+  }
+
+  .project-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+
+  .project-description {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+  }
+
+  .project-link {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    color: white;
+    background-color: #3498db;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+  }
+
+  .project-link:hover {
+    background-color: #2980b9;
   }
 
   .hidden {
@@ -50,6 +93,8 @@ author_profile: true
 </style>
 
 <div class="projects-container" id="projectsContainer">
+
+  <!-- FIRST 9 PROJECTS (VISIBLE INITIALLY) -->
 
 <div class="project-card">
 	<img src="/images/birds.jpeg" alt="Bird Classification" class="project-image">
@@ -114,6 +159,8 @@ author_profile: true
 			Project</a>
 	</div>
 </div>
+
+  <!-- REMAINING PROJECTS (HIDDEN INITIALLY) -->
 
 <div class="project-card hidden">
 	<img src="/images/ResNet.png" alt="Parameter Estimation using Residual Neural Network" class="project-image">
@@ -273,7 +320,9 @@ author_profile: true
   document.getElementById("loadMoreBtn").addEventListener("click", function () {
     let hiddenProjects = document.querySelectorAll(".project-card.hidden");
 
-    hiddenProjects.forEach(project => project.classList.remove("hidden"));
+    hiddenProjects.forEach(project => {
+      project.classList.remove("hidden");
+    });
 
     // Hide the button after all projects are shown
     this.style.display = "none";
