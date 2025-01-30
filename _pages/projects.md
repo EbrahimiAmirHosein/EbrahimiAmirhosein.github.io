@@ -22,6 +22,7 @@ author_profile: true
     background: #fff;
     padding-bottom: 15px;
     text-align: center;
+    display: block;
   }
 
   .project-card:hover {
@@ -302,29 +303,22 @@ author_profile: true
 	</div>
 </div>
 
-<div class="project-card hidden">
-	<img src="/images/Ard.png" alt="Arduino Projects" class="project-image">
-	<div class="project-content">
-		<div class="project-title">Arduino Projects</div>
-		<div class="project-description">A collection of projects implemented using Arduino Uno.</div>
-		<a href="https://github.com/EbrahimiAmirHosein/arduino-exercise" class="project-link">🔗 View Project</a>
-	</div>
-</div>
-
-</div>
-
-<!-- Load More Button -->
 <button class="load-more-btn" id="loadMoreBtn">🔽 Load More</button>
 
 <script>
   document.getElementById("loadMoreBtn").addEventListener("click", function () {
     let hiddenProjects = document.querySelectorAll(".project-card.hidden");
 
-    hiddenProjects.forEach(project => {
-      project.classList.remove("hidden");
+    hiddenProjects.forEach((project, index) => {
+      setTimeout(() => {
+        project.classList.remove("hidden");
+        project.style.display = "block"; // Ensure it forces reflow
+      }, index * 100); // Adds a smooth reveal effect
     });
 
     // Hide the button after all projects are shown
-    this.style.display = "none";
+    setTimeout(() => {
+      this.style.display = "none";
+    }, hiddenProjects.length * 100 + 300);
   });
 </script>
