@@ -12,13 +12,7 @@ author_profile: true
     gap: 20px;
     padding: 20px;
   }
-.hidden {
-  display: none !important;  /* Hides initially */
-}
 
-.projects-container.expanded .hidden {
-  display: block !important; /* Reveals hidden projects when expanded */
-}
   .project-card {
     position: relative;
     overflow: hidden;
@@ -28,6 +22,7 @@ author_profile: true
     background: #fff;
     padding-bottom: 15px;
     text-align: center;
+    display: block;
   }
 
   .project-card:hover {
@@ -75,6 +70,9 @@ author_profile: true
     background-color: #2980b9;
   }
 
+  .hidden {
+    display: none !important;  /* Hide extra projects initially */
+  }
 
   .load-more-btn {
     display: block;
@@ -310,8 +308,15 @@ author_profile: true
 
 <script>
   document.getElementById("loadMoreBtn").addEventListener("click", function () {
-    document.getElementById("projectsContainer").classList.add("expanded");
-    this.style.display = "none"; // Hide button after expanding
+    let hiddenProjects = document.querySelectorAll(".project-card.hidden");
+
+    hiddenProjects.forEach(project => {
+      project.classList.remove("hidden"); // Remove hidden class
+      project.style.display = "block"; // Ensure it's displayed
+    });
+
+    // Hide the button after all projects are revealed
+    this.style.display = "none";
   });
 </script>
 
