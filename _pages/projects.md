@@ -307,16 +307,20 @@ author_profile: true
 <button class="load-more-btn" id="loadMoreBtn">🔽 Load More</button>
 
 <script>
-  document.getElementById("loadMoreBtn").addEventListener("click", function () {
-    let hiddenProjects = document.querySelectorAll(".project-card.hidden");
+document.addEventListener("DOMContentLoaded", function () {
+    let loadMoreBtn = document.getElementById("loadMoreBtn");
+    if (loadMoreBtn) {
+        loadMoreBtn.addEventListener("click", function () {
+            let hiddenProjects = document.querySelectorAll(".project-card.hidden");
 
-    hiddenProjects.forEach(project => {
-      project.classList.remove("hidden"); // Remove hidden class
-      project.style.display = "block"; // Ensure it's displayed
-    });
+            hiddenProjects.forEach(project => {
+                project.classList.remove("hidden");
+                project.style.display = "flex"; // Use flex/grid depending on layout
+            });
 
-    // Hide the button after all projects are revealed
-    this.style.display = "none";
-  });
+            this.style.display = "none"; // Hide button after all projects are revealed
+        });
+    }
+});
 </script>
 
