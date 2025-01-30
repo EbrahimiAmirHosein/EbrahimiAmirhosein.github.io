@@ -306,19 +306,16 @@ author_profile: true
 <button class="load-more-btn" id="loadMoreBtn">🔽 Load More</button>
 
 <script>
-  document.getElementById("loadMoreBtn").addEventListener("click", function () {
-    let hiddenProjects = document.querySelectorAll(".project-card.hidden");
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("loadMoreBtn").addEventListener("click", function () {
+      let hiddenProjects = document.querySelectorAll(".project-card.hidden");
 
-    hiddenProjects.forEach((project, index) => {
-      setTimeout(() => {
+      hiddenProjects.forEach((project) => {
         project.classList.remove("hidden");
-        project.style.display = "block"; // Ensure it forces reflow
-      }, index * 100); // Adds a smooth reveal effect
-    });
+      });
 
-    // Hide the button after all projects are shown
-    setTimeout(() => {
+      // Hide the button after all projects are shown
       this.style.display = "none";
-    }, hiddenProjects.length * 100 + 300);
+    });
   });
 </script>
