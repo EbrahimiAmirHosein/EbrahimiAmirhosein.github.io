@@ -12,7 +12,9 @@ author_profile: true
     gap: 20px;
     padding: 20px;
   }
-
+  .projects-container.expanded .hidden {
+    display: block !important;
+  }
   .project-card {
     position: relative;
     overflow: hidden;
@@ -307,13 +309,7 @@ author_profile: true
 
 <script>
   document.getElementById("loadMoreBtn").addEventListener("click", function () {
-    let hiddenProjects = document.querySelectorAll(".hidden");
-    
-    hiddenProjects.forEach(project => {
-      project.classList.remove("hidden"); // Reveal all projects
-    });
-
-    // Hide the button after all projects are displayed
+    document.getElementById("projectsContainer").classList.add("expanded");
     this.style.display = "none";
   });
 </script>
