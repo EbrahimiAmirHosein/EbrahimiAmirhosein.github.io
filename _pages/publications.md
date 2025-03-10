@@ -40,7 +40,7 @@ author_profile: true
 - <span class="publication-title">First Course in Machine Learning: Dimensionality Reduction in Machine Learning</span>  
   <span class="publication-authors">Chapters: 1, 3</span>  
   <span class="publication-source">Published by Elsevier, 2025</span>
-
+  <a class="read-more" href="https://www.sciencedirect.com/science/article/pii/B9780443328183000095">🔗 Read more</a>
 ---
 
 ## 📰 Journal Articles
