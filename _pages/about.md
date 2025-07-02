@@ -20,21 +20,21 @@ ul.twocol { width: 110%; }
 
 
 <p class="intro">
-👋 Hi, I'm <span class="highlight">Amirhossein Ebrahimi</span>, a Master's student in Biomedical Engineering, with a deep passion for <span class="highlight">Artificial Intelligence in Healthcare</span>.
+Hi, I'm <span class="highlight">Amirhossein Ebrahimi</span>, a Master's student in Biomedical Engineering, with a deep passion for <span class="highlight">Artificial Intelligence in Healthcare</span>.
 </p>
 
 I earned my Bachelor's degree from **Shahid Beheshti University**, and now, I'm thrilled to embark on my next academic chapter at the **University of Ottawa**. Under the mentorship of [Professor Arvind Mer](https://scholar.google.com/citations?user=Xy6KKl8AAAAJ&hl=en), I am diving into cutting-edge research at the intersection of **AI and healthcare**, aiming to drive meaningful **social impact**.
 
-### 🌟 Research Interests
+###  Research Interests
 I am particularly fascinated by the transformative power of AI in medical applications, with a keen focus on:
 
 <ul class="twocol" markdown='1'>
-  <li>🧠 <b>Graph Neural Networks</b></li>
-  <li>📸 <b>Computer Vision</b></li>
-  <li>🔬 <b>Computational Pathology</b></li>
-  <li>🧬 <b>Bioinformatics</b></li>
-  <li>📊 <b>Machine Learning</b></li>
+  <li> <b>Graph Neural Networks</b></li>
+  <li> <b>Computer Vision</b></li>
+  <li> <b>Computational Pathology</b></li>
+  <li> <b>Bioinformatics</b></li>
+  <li> <b>Machine Learning</b></li>
 </ul>
 
-🚀 My goal? To **push the boundaries of AI-driven innovation** in healthcare, bridging the gap between technology and human well-being.  
+ My goal? To **push the boundaries of AI-driven innovation** in healthcare, bridging the gap between technology and human well-being.  
 
