@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "📚 Publications"
+title: " Publications"
 permalink: /publications/
 author_profile: true
 ---
@@ -36,7 +36,7 @@ author_profile: true
   }
 </style>
 
-## 📖 Book Chapter
+##  Book Chapter
 - <span class="publication-title">First Course in Machine Learning: Dimensionality Reduction in Machine Learning</span>  
   <span class="publication-authors">Chapters: 1, 3</span>  
   <span class="publication-source">Published by Elsevier, 2025</span>
@@ -44,7 +44,7 @@ author_profile: true
   
 ---
 
-## 📰 Journal Articles
+##  Journal Articles
 <ul class="publication-list">
   <li>
     <span class="publication-title">Text-Mining Based Feature Selection for Anticancer Drug Response Prediction</span>  
@@ -62,7 +62,7 @@ author_profile: true
 
 ---
 
-## 🎤 Conference Proceedings
+##  Conference Proceedings
 <ul class="publication-list">
   <li>
     <span class="publication-title">A New Approach for Minimum Dominating Set Problem</span>  
@@ -76,4 +76,11 @@ author_profile: true
     <span class="publication-source">National Informatics Conference of Iran (NIC), 2022</span>  
     <a class="read-more" href="https://cs.ipm.ac.ir/nic/1401/files/Final_proceedings_NIC1401.pdf">🔗 Page 128</a>
   </li>
+  <li>
+    <span class="publication-title">From Data Annotation to AI Prediction: Streamlining Histopathology Analysis in Acute Respiratory Distress Syndrome</span>  
+    <span class="publication-authors"><b>A.H. Ebrahimi</b>, M.R. Zarei, E. Kuhar, P. Karunamurthy, K. Pillagawa, F. Jahandideh, M. Komeili, M. Lalu, A. Mer</span>  
+    <span class="publication-source">38<sup>th</sup> Canadian Conference on Artificial Intelligence (Canadian AI 2025), CAIAC</span>  
+    <a class="read-more" href="https://assets.pubpub.org/dwmjptvq/219-31747763773612.pdf">🔗 Read more</a>
+  </li>
 </ul>
+
