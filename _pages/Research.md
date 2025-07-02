@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "🔬 Research Experience"
+title: "Research Experience"
 permalink: /Research/
 author_profile: true
 ---
@@ -46,44 +46,44 @@ author_profile: true
   }
 </style>
 
-## 🏛 Research Assistant at [Mer Lab](https://merlab.github.io/)
-📍 *University of Ottawa* | 🏆 *Computational Biology & Machine Learning*  
-🧑‍🔬 **Supervised by:** [Dr. Arvind Mer](https://www.uottawa.ca/faculty-medicine/dr-arvind-mer)
+## Research Assistant at [Mer Lab](https://merlab.github.io/)
+📍 *University of Ottawa* | *Computational Biology & Machine Learning*  
+**Supervised by:** [Dr. Arvind Mer](https://www.uottawa.ca/faculty-medicine/dr-arvind-mer)
 
 ![University of Ottawa](https://www.uottawa.ca/research-innovation/sites/g/files/bhrskd326/files/2021-10/OVPRI-campus-canal-16x9.jpg)  
 
-- 📄 **[Text-Mining-Based Feature Selection for Anticancer Drug Response Prediction](https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae047/7644335)**
-- 🔬 Conducting research on computational methods for drug discovery.
+-  **[Text-Mining-Based Feature Selection for Anticancer Drug Response Prediction](https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae047/7644335)**
+-  Conducting research on computational methods for drug discovery.
 
-📅 *May 2023 – Present*
+ *May 2023 – Present*
 
 ---
 
-## 🏛 Research Assistant at [IPM – Institute for Research in Fundamental Sciences](http://www.ipm.ac.ir/)
+## Research Assistant at [IPM – Institute for Research in Fundamental Sciences](http://www.ipm.ac.ir/)
 📍 *School of Computer Science*  
-🧑‍🔬 **Supervised by:** [Dara Rahmati](https://scholar.google.com/citations?user=xwJgOl0AAAAJ&hl=en) & [Amirhosein Hadian](https://scholar.google.com/citations?user=qbOoaykAAAAJ&hl=en&oi=ao)
+ **Supervised by:** [Dara Rahmati](https://scholar.google.com/citations?user=xwJgOl0AAAAJ&hl=en) & [Amirhosein Hadian](https://scholar.google.com/citations?user=qbOoaykAAAAJ&hl=en&oi=ao)
 
 ![IPM Institute](https://www.ipm.ac.ir/img/1000x320/1.jpg)  
 
-- 📄 **Estimating Stochastic Model Parameters (Drift-Diffusion) Using Deep Learning Approaches** 
-- 📖 **First Course in Machine Learning:** Chapters on **Dimension Reduction & Feature Selection**.
-- ⚡ **Hardware Acceleration** of biologically-inspired neural networks **(Bio-SFA & Bio-NICA)**.
-- 🔍 **Proposed a New Distributed Algorithm** for the Minimum Dominating Set Problem .
+-  **Estimating Stochastic Model Parameters (Drift-Diffusion) Using Deep Learning Approaches** 
+-  **First Course in Machine Learning:** Chapters on **Dimension Reduction & Feature Selection**.
+-  **Hardware Acceleration** of biologically-inspired neural networks **(Bio-SFA & Bio-NICA)**.
+-  **Proposed a New Distributed Algorithm** for the Minimum Dominating Set Problem .
 
-📅 *Aug 2020 – Jul 2024*
+ *Aug 2020 – Jul 2024*
 
 ---
 
-## 🏛 Research Assistant & Developer at [CMP Lab](https://cmplab.sbu.ac.ir/)
+## Research Assistant & Developer at [CMP Lab](https://cmplab.sbu.ac.ir/)
 📍 *Computational & Mathematical Psychology Laboratory*  
-🧑‍🔬 **Supervised by:** [Jamal Amani Rad](https://scholar.google.com/citations?user=LA2VT8kAAAAJ&hl=en&oi=ao) & [Amirhosein Hadian](https://scholar.google.com/citations?user=qbOoaykAAAAJ&hl=en&oi=ao)
+ **Supervised by:** [Jamal Amani Rad](https://scholar.google.com/citations?user=LA2VT8kAAAAJ&hl=en&oi=ao) & [Amirhosein Hadian](https://scholar.google.com/citations?user=qbOoaykAAAAJ&hl=en&oi=ao)
 
 ![CMP Lab](https://en.sbu.ac.ir/documents/5971290/0/slider-11.jpg/b9331f1b-0e96-8130-5197-dac9cf2a8521?t=1733818942218&download=true)  
 
-- 🧠 **Developed Psychological Tasks** for Cognitive Science Research:
-  - 🎭 **Motion Discriminator Task**
-  - 🏗 **Stereotypical Job Beliefs Task**
-  - ⏳ **Temporal Bisection Task**
-  - 🃏 **Wisconsin Sorting Card Task**
+-  **Developed Psychological Tasks** for Cognitive Science Research:
+  -  **Motion Discriminator Task**
+  -  **Stereotypical Job Beliefs Task**
+  -  **Temporal Bisection Task**
+  -  **Wisconsin Sorting Card Task**
 
-📅 *Jan 2021 – 2023*
+ *Jan 2021 – 2023*
