@@ -47,6 +47,12 @@ author_profile: true
 ##  Journal Articles
 <ul class="publication-list">
   <li>
+    <span class="publication-title">Deciphering Genomic Correlates of Differential Treatment Response Kinetics in Multiple Myeloma</span>  
+    <span class="publication-authors">Patrick B, <b>A. Ebrahimi</b>, A. Visram, A. Mer</span>  
+    <span class="publication-source">Clinical Lymphoma, Myeloma & Leukemia, 2025; 25(Suppl. 1): S154</span>  
+    <a class="read-more" href="https://doi.org/10.1016/S2152-2650(25)03651-1">🔗 DOI</a>
+  </li>
+  <li>
     <span class="publication-title">Text-Mining Based Feature Selection for Anticancer Drug Response Prediction</span>  
     <span class="publication-authors">G. Wu, A. Zaker, <b>A.H. Ebrahimi</b>, S. Tripathi, A. Mer</span>  
     <span class="publication-source">Bioinformatics Advances, 2024</span>  
@@ -65,6 +71,17 @@ author_profile: true
 ##  Conference Proceedings
 <ul class="publication-list">
   <li>
+    <span class="publication-title">From Data Annotation to AI Prediction: Streamlining Histopathology Analysis in Acute Respiratory Distress Syndrome</span>  
+    <span class="publication-authors"><b>A.H. Ebrahimi</b>, M.R. Zarei, E. Kuhar, P. Karunamurthy, K. Pillagawa, F. Jahandideh, M. Komeili, M. Lalu, A. Mer</span>  
+    <span class="publication-source">38<sup>th</sup> Canadian Conference on Artificial Intelligence (Canadian AI 2025), CAIAC, 2025</span>  
+    <a class="read-more" href="https://assets.pubpub.org/dwmjptvq/219-31747763773612.pdf">🔗 Read more</a>
+  </li>
+  <li>
+    <span class="publication-title">Multi-Omic Insights into the Genetic Correlates of the Differential Treatment Response Kinetics Effect</span>  
+    <span class="publication-authors">Patrick B, <b>A. Ebrahimi</b>, A. Visram, S. Mer</span>  
+    <span class="publication-source">Poster; 22<sup>nd</sup> Annual International Myeloma Society Conference, September 2025, Toronto, Ontario</span>  
+  </li>
+  <li>
     <span class="publication-title">A New Approach for Minimum Dominating Set Problem</span>  
     <span class="publication-authors">S. Alipour, <b>A.H. Ebrahimi</b></span>  
     <span class="publication-source">ACM International Conference on Information and Knowledge Management, 2024</span>  
@@ -76,11 +93,4 @@ author_profile: true
     <span class="publication-source">National Informatics Conference of Iran (NIC), 2022</span>  
     <a class="read-more" href="https://cs.ipm.ac.ir/nic/1401/files/Final_proceedings_NIC1401.pdf">🔗 Page 128</a>
   </li>
-  <li>
-    <span class="publication-title">From Data Annotation to AI Prediction: Streamlining Histopathology Analysis in Acute Respiratory Distress Syndrome</span>  
-    <span class="publication-authors"><b>A.H. Ebrahimi</b>, M.R. Zarei, E. Kuhar, P. Karunamurthy, K. Pillagawa, F. Jahandideh, M. Komeili, M. Lalu, A. Mer</span>  
-    <span class="publication-source">38<sup>th</sup> Canadian Conference on Artificial Intelligence (Canadian AI 2025), CAIAC</span>  
-    <a class="read-more" href="https://assets.pubpub.org/dwmjptvq/219-31747763773612.pdf">🔗 Read more</a>
-  </li>
 </ul>
-
