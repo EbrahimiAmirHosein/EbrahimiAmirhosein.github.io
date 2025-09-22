@@ -72,7 +72,7 @@ author_profile: true
 <ul class="publication-list">
   <li>
     <span class="publication-title">Artificial intelligence-enabled histological analysis in preclinical respiratory disease models: A Scoping Review</span>  
-    <span class="publication-authors">Kuhar, E., Park, J., Jahandideh, F., Komeili, M., Sadeknury, A., Kang, N., … Lalu, M. M.</span>  
+    <span class="publication-authors">Kuhar, E., Park, J., Jahandideh, F., Komeili, … A., Ebrahimi</span>  
     <span class="publication-source">OSF Preprints, September 12, 2025</span>  
     <a class="read-more" href="https://doi.org/10.17605/OSF.IO/NPRD7">🔗 DOI</a>
   </li>
