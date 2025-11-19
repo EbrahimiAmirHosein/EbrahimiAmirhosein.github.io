@@ -6,84 +6,159 @@ author_profile: true
 ---
 
 <style>
-  .research-container {
-    margin-bottom: 30px;
+  .research-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
-  .research-title {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #2c3e50;
+
+  /* Intro section */
+  .intro-section {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
   }
-  .research-institute {
-    font-weight: bold;
-    font-size: 1.1em;
-    color: #2980b9;
+  .intro-text {
+    flex: 1 1 380px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #374151;
   }
-  .research-supervisor {
+  .intro-gif {
+    flex: 1 1 260px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+  }
+
+  /* Section blocks */
+  .research-block {
+    margin-bottom: 50px;
+    padding-left: 14px;
+    border-left: 4px solid #3b82f6;
+  }
+  .research-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 6px;
+  }
+  .research-meta {
+    color: #4b5563;
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  .supervisor {
     font-style: italic;
-    color: #7f8c8d;
+    color: #6b7280;
   }
-  .research-item {
-    margin-bottom: 15px;
-  }
-  .research-date {
-    font-weight: bold;
-    color: #27ae60;
-  }
-  .research-link {
-    color: #e74c3c;
-    text-decoration: none;
-  }
-  .research-link:hover {
-    text-decoration: underline;
-  }
+
   .research-image {
     width: 100%;
-    max-width: 600px;
-    border-radius: 8px;
-    margin-top: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 650px;
+    border-radius: 10px;
+    margin: 12px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+  }
+
+  ul.research-list {
+    margin: 10px 0 5px 0;
+    padding-left: 18px;
+  }
+
+  .date-range {
+    font-weight: 600;
+    color: #10b981;
+    margin-top: 5px;
   }
 </style>
 
-## Research Assistant at [Mer Lab](https://merlab.github.io/)
-*University of Ottawa* | *Computational Biology & Machine Learning*  
-**Supervised by:** [Dr. Arvind Mer](https://www.uottawa.ca/faculty-medicine/dr-arvind-mer)
+<div class="research-wrapper">
 
-![University of Ottawa](https://www.uottawa.ca/research-innovation/sites/g/files/bhrskd326/files/2021-10/OVPRI-campus-canal-16x9.jpg)  
+<!-- INTRO SECTION -->
+<div class="intro-section">
+  <div class="intro-text">
+    I work at the intersection of <b>artificial intelligence</b> and <b>pathology</b>, focusing on
+    building models that help interpret histology slides and extract meaningful patterns from tissue samples.
+    My work involves developing training pipelines, designing practical AI workflows for researchers,
+    and exploring new ways deep learning can support biological discovery.
+  </div>
 
--  **[Text-Mining-Based Feature Selection for Anticancer Drug Response Prediction](https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae047/7644335)**
--  Conducting research on computational methods for drug discovery.
+  <img src="/files/github-gif-1.gif" class="intro-gif">
+</div>
 
- *May 2023 – Present*
+<img src="/files/github-gif-2.gif" class="intro-gif" style="display:block; margin: 0 auto 40px auto; width: 80%; max-width: 500px;">
 
----
 
-## Research Assistant at [IPM – Institute for Research in Fundamental Sciences](http://www.ipm.ac.ir/)
-*School of Computer Science*  
- **Supervised by:** [Dara Rahmati](https://scholar.google.com/citations?user=xwJgOl0AAAAJ&hl=en) & [Amirhosein Hadian](https://scholar.google.com/citations?user=qbOoaykAAAAJ&hl=en&oi=ao)
+<!-- MER LAB -->
+<div class="research-block">
 
-![IPM Institute](https://www.ipm.ac.ir/img/1000x320/1.jpg)  
+  <div class="research-header">Research Assistant — <a href="https://merlab.github.io/">Mer Lab</a></div>
+  <div class="research-meta">University of Ottawa • Computational Biology & Machine Learning</div>
+  <div class="supervisor">Supervised by: <a href="https://www.uottawa.ca/faculty-medicine/dr-arvind-mer">Dr. Arvind Mer</a></div>
 
--  **Estimating Stochastic Model Parameters (Drift-Diffusion) Using Deep Learning Approaches** 
--  **First Course in Machine Learning:** Chapters on **Dimension Reduction & Feature Selection**.
--  **Hardware Acceleration** of biologically-inspired neural networks **(Bio-SFA & Bio-NICA)**.
--  **Proposed a New Distributed Algorithm** for the Minimum Dominating Set Problem .
+  <img class="research-image" src="https://www.uottawa.ca/research-innovation/sites/g/files/bhrskd326/files/2021-10/OVPRI-campus-canal-16x9.jpg">
 
- *Aug 2020 – Jul 2024*
+  <ul class="research-list">
+    <li><a href="https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae047/7644335"><b>Text-Mining Feature Selection</b> for anticancer drug-response prediction</a></li>
+    <li>Research in machine learning for drug discovery and biological data analysis</li>
+  </ul>
 
----
+  <div class="date-range">May 2023 – Present</div>
+</div>
 
-## Research Assistant & Developer at [CMP Lab](https://cmplab.sbu.ac.ir/)
-*Computational & Mathematical Psychology Laboratory*  
- **Supervised by:** [Jamal Amani Rad](https://scholar.google.com/citations?user=LA2VT8kAAAAJ&hl=en&oi=ao) & [Amirhosein Hadian](https://scholar.google.com/citations?user=qbOoaykAAAAJ&hl=en&oi=ao)
 
-![CMP Lab](https://en.sbu.ac.ir/documents/5971290/0/slider-11.jpg/b9331f1b-0e96-8130-5197-dac9cf2a8521?t=1733818942218&download=true)  
+<!-- IPM -->
+<div class="research-block">
 
--  **Developed Psychological Tasks** for Cognitive Science Research:
-  -  **Motion Discriminator Task**
-  -  **Stereotypical Job Beliefs Task**
-  -  **Temporal Bisection Task**
-  -  **Wisconsin Sorting Card Task**
+  <div class="research-header">Research Assistant — <a href="http://www.ipm.ac.ir/">IPM: Institute for Research in Fundamental Sciences</a></div>
+  <div class="research-meta">School of Computer Science</div>
+  <div class="supervisor">
+    Supervised by:
+    <a href="https://scholar.google.com/citations?user=xwJgOl0AAAAJ">Dara Rahmati</a>,
+    <a href="https://scholar.google.com/citations?user=qbOoaykAAAAJ">Amirhosein Hadian</a>
+  </div>
 
- *Jan 2021 – 2023*
+  <img class="research-image" src="https://www.ipm.ac.ir/img/1000x320/1.jpg">
+
+  <ul class="research-list">
+    <li><b>Estimating drift–diffusion model parameters</b> using deep learning</li>
+    <li><b>Machine Learning Textbook:</b> Co-authoring chapters on dimensionality reduction & feature selection</li>
+    <li>Hardware acceleration of Bio-SFA & Bio-NICA neural models</li>
+    <li>Designed a new distributed algorithm for the Minimum Dominating Set problem</li>
+  </ul>
+
+  <div class="date-range">Aug 2020 – Jul 2024</div>
+</div>
+
+
+<!-- CMP LAB -->
+<div class="research-block">
+
+  <div class="research-header">Research Assistant & Developer — <a href="https://cmplab.sbu.ac.ir/">CMP Lab</a></div>
+  <div class="research-meta">Computational & Mathematical Psychology Laboratory</div>
+  <div class="supervisor">
+    Supervised by:
+    <a href="https://scholar.google.com/citations?user=LA2VT8kAAAAJ">Jamal Amani Rad</a>,
+    <a href="https://scholar.google.com/citations?user=qbOoaykAAAAJ">Amirhosein Hadian</a>
+  </div>
+
+  <img class="research-image" src="https://en.sbu.ac.ir/documents/5971290/0/slider-11.jpg/b9331f1b-0e96-8130-5197-dac9cf2a8521?t=1733818942218&download=true">
+
+  <ul class="research-list">
+    <li>Developed behavioral & cognitive science research tasks:</li>
+    <ul>
+      <li>Motion Discriminator Task</li>
+      <li>Stereotypical Job Beliefs Task</li>
+      <li>Temporal Bisection Task</li>
+      <li>Wisconsin Card Sorting Task</li>
+    </ul>
+  </ul>
+
+  <div class="date-range">Jan 2021 – 2023</div>
+</div>
+
+</div>
