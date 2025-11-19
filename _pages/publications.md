@@ -14,27 +14,13 @@ author_profile: true
   }
 
   .section-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 700;
-    color: #1a1a1a;
-    margin-bottom: 40px;
-    padding-bottom: 12px;
+    color: #2c3e50;
+    margin: 50px 0 30px 0;
+    padding-bottom: 10px;
     border-bottom: 3px solid #3498db;
     display: inline-block;
-  }
-
-  .book-chapter {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 30px 40px;
-    border-radius: 16px;
-    margin-bottom: 60px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease;
-  }
-
-  .book-chapter:hover {
-    transform: translateY(-5px);
   }
 
   .publication-list {
@@ -94,62 +80,39 @@ author_profile: true
     color: #2980b9;
   }
 
-  .read-more::before {
-    content: "";
-    margin-right: 8px;
-    font-weight: bold;
-  }
-
-  /* Special styling for preprints */
+  /* Preprints */
   .preprint-item {
     border-left-color: #e74c3c;
   }
+  .preprint-item .read-more { color: #e74c3c; }
+  .preprint-item .read-more:hover { color: #c0392b; }
 
-  .preprint-item .read-more {
-    color: #e74c3c;
-  }
-
-  .preprint-item .read-more:hover {
-    color: #c0392b;
-  }
-
-  /* Conference proceedings subtle distinction */
+  /* Conference */
   .conference-item {
     border-left-color: #9b59b6;
   }
-
-  .conference-item .read-more {
-    color: #9b59b6;
-  }
-
-  .conference-item .read-more:hover {
-    color: #8e44ad;
-  }
+  .conference-item .read-more { color: #9b59b6; }
+  .conference-item .read-more:hover { color: #8e44ad; }
 
   @media (max-width: 768px) {
-    .section-title {
-      font-size: 1.8rem;
-    }
-    .publication-list li {
-      padding: 20px;
-    }
-    .book-chapter {
-      padding: 25px;
-    }
+    .section-title { font-size: 1.7rem; }
+    .publication-list li { padding: 20px; }
   }
 </style>
 
 <div class="publications-section">
 
-## Book Chapter
-<div class="book-chapter">
-  <span class="publication-title">First Course in Machine Learning: Dimensionality Reduction in Machine Learning</span><br>
-  <span class="publication-authors">Chapters: 1, 3</span><br>
-  <span class="publication-source">Published by Elsevier, 2025</span>
-  <a class="read-more" href="https://www.sciencedirect.com/science/article/pii/B9780443328183000095">Read more</a>
-</div>
+<div class="section-title">Book Chapter</div>
+<ul class="publication-list">
+  <li>
+    <span class="publication-title">First Course in Machine Learning: Dimensionality Reduction in Machine Learning</span><br>
+    <span class="publication-authors">Chapters: 1, 3</span><br>
+    <span class="publication-source">Published by Elsevier, 2025</span>
+    <a class="read-more" href="https://www.sciencedirect.com/science/article/pii/B9780443328183000095">Read more</a>
+  </li>
+</ul>
 
-## Journal Articles
+<div class="section-title">Journal Articles</div>
 <ul class="publication-list">
   <li>
     <span class="publication-title">Deciphering Genomic Correlates of Differential Treatment Response Kinetics in Multiple Myeloma</span><br>
@@ -171,7 +134,7 @@ author_profile: true
   </li>
 </ul>
 
-## Preprints
+<div class="section-title">Preprints</div>
 <ul class="publication-list">
   <li class="preprint-item">
     <span class="publication-title">Artificial Intelligence-enabled Histological Analysis in Preclinical Respiratory Disease Models: A Scoping Review</span><br>
@@ -181,7 +144,7 @@ author_profile: true
   </li>
 </ul>
 
-## Conference Proceedings
+<div class="section-title">Conference Proceedings</div>
 <ul class="publication-list">
   <li class="conference-item">
     <span class="publication-title">From Data Annotation to AI Prediction: Streamlining Histopathology Analysis in Acute Respiratory Distress Syndrome</span><br>
