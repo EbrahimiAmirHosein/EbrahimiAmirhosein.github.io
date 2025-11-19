@@ -83,7 +83,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Multi-Cohort ML Pipeline for Multiple Myeloma</div>
     <div class="project-description">Predict early treatment response and survival outcomes using RNA-seq and microarray gene expression data. Includes Kaplan–Meier survival analysis.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/ML-MM-Pipeline" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/gene-expression-response-predictor" class="project-link">🔗 View Project</a>
   </div>
 </div>
 
@@ -92,7 +92,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">TCGA-Histology-Hub</div>
     <div class="project-description">Central hub for downloading, organizing, and summarizing TCGA histology slide data via the GDC API. Supports patient-specific filtering.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/TCGA-Histology-Hub" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/TCGA-Histology-Hub/tree/main/data" class="project-link">🔗 View Project</a>
   </div>
 </div>
 
@@ -101,7 +101,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">LungInsightAnnotation</div>
     <div class="project-description">A serverless dockerized application to streamline histological annotation of lung tissue, especially for ARDS studies.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/LungInsightAnnotation" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/LungHistoNet" class="project-link">🔗 View Project</a>
   </div>
 </div>
 
