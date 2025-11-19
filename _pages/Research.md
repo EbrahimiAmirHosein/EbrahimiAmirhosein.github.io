@@ -90,7 +90,7 @@ author_profile: true
   <img src="/files/github-gif-1.gif" class="intro-gif">
 </div>
 
-<img src="/files/github-gif-2.gif" class="intro-gif" style="display:block; margin: 0 auto 40px auto; width: 80%; max-width: 500px;">
+<!-- <img src="/files/github-gif-2.gif" class="intro-gif" style="display:block; margin: 0 auto 40px auto; width: 80%; max-width: 500px;"> -->
 
 
 <!-- MER LAB -->
