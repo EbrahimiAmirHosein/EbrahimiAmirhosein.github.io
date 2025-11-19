@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: " Projects"
+title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
@@ -17,7 +17,11 @@ author_profile: true
     display: flex;
     flex-direction: column;
     min-height: 370px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   }
 
   .project-card:hover {
@@ -68,38 +72,40 @@ author_profile: true
   .project-link:hover {
     background-color: #2980b9;
   }
-
-  /* Optional: restrict first 6 visible */
-  .project-card:nth-child(n+7) {
-    display: none;
-  }
-
-  /* Show all when class added */
-  .show-all .project-card {
-    display: flex;
-  }
-
-  .show-more-btn {
-    display: block;
-    margin: 25px auto;
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #10b981;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-
-  .show-more-btn:hover {
-    background-color: #059669;
-  }
 </style>
 
 <div class="projects-container" id="projectsContainer">
 
-<!-- FIRST 6 PROJECTS -->
+<!-- ================= NEW PROJECTS (TOP) ================= -->
+
+<div class="project-card">
+  <img src="/images/ML_MM.png" alt="Multi-Cohort ML Pipeline for Multiple Myeloma" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Multi-Cohort ML Pipeline for Multiple Myeloma</div>
+    <div class="project-description">Predict early treatment response and survival outcomes using RNA-seq and microarray gene expression data. Includes Kaplan–Meier survival analysis.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/ML-MM-Pipeline" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/TCGA-HUB.png" alt="TCGA Histology Hub" class="project-image">
+  <div class="project-content">
+    <div class="project-title">TCGA-Histology-Hub</div>
+    <div class="project-description">Central hub for downloading, organizing, and summarizing TCGA histology slide data via the GDC API. Supports patient-specific filtering.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/TCGA-Histology-Hub" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/LUNGINSIGHTANNOTATION.png" alt="LungInsightAnnotation" class="project-image">
+  <div class="project-content">
+    <div class="project-title">LungInsightAnnotation</div>
+    <div class="project-description">A serverless dockerized application to streamline histological annotation of lung tissue, especially for ARDS studies.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/LungInsightAnnotation" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<!-- ================= EXISTING PROJECTS ================= -->
 
 <div class="project-card">
   <img src="/images/birds.jpeg" alt="Bird Classification" class="project-image">
@@ -155,46 +161,139 @@ author_profile: true
   </div>
 </div>
 
-<!-- NEW PROJECTS -->
-
 <div class="project-card">
-  <img src="/images/ML_MM.png" alt="Multi-Cohort ML Pipeline for Multiple Myeloma" class="project-image">
+  <img src="/images/accelerator.png" alt="Bio-SFA Bio-NICA Accelerator" class="project-image">
   <div class="project-content">
-    <div class="project-title">Multi-Cohort ML Pipeline for Multiple Myeloma</div>
-    <div class="project-description">Predict early treatment response and survival outcomes using RNA-seq and microarray gene expression data. Includes Kaplan–Meier survival analysis.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/ML-MM-Pipeline" class="project-link">🔗 View Project</a>
+    <div class="project-title">Bio-SFA & Bio-NICA Accelerator</div>
+    <div class="project-description">Developing hardware accelerators for bio-inspired networks.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Bio-SFA-bio-NICA-accelerator" class="project-link">🔗 View Project</a>
   </div>
 </div>
 
 <div class="project-card">
-  <img src="/images/TCGA-HUB.png" alt="TCGA Histology Hub" class="project-image">
+  <img src="/images/ResNet.png" alt="Parameter Estimation using Residual Neural Network" class="project-image">
   <div class="project-content">
-    <div class="project-title">TCGA-Histology-Hub</div>
-    <div class="project-description">Central hub for downloading, organizing, and summarizing TCGA histology slide data via the GDC API. Supports patient-specific filtering.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/TCGA-Histology-Hub" class="project-link">🔗 View Project</a>
+    <div class="project-title">Parameter Estimation using Residual Neural Network</div>
+    <div class="project-description">A practical approach for estimating stochastic processes, even when likelihood functions are unknown.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Parameter-estimation-using-residual-neural-network" class="project-link">🔗 View Project</a>
   </div>
 </div>
 
 <div class="project-card">
-  <img src="/images/LUNGINSIGHTANNOTATION.png" alt="LungInsightAnnotation" class="project-image">
+  <img src="/images/nn.png" alt="Comment Verification Using Neural Networks" class="project-image">
   <div class="project-content">
-    <div class="project-title">LungInsightAnnotation</div>
-    <div class="project-description">A serverless dockerized application to streamline histological annotation of lung tissue, especially for ARDS studies.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/LungInsightAnnotation" class="project-link">🔗 View Project</a>
+    <div class="project-title">Comment Verification Using Neural Networks</div>
+    <div class="project-description">Developing a system to verify user comments on Digikala using deep learning techniques.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/comment_verification" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/GAN.png" alt="Generative Adversarial Networks (GANs) Practice" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Generative Adversarial Networks (GANs) Practice</div>
+    <div class="project-description">Implementing different GAN architectures and training methodologies.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/GAN-practice" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/graphs.png" alt="Minimum Dominating Set in Graphs" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Minimum Dominating Set in Graphs</div>
+    <div class="project-description">A novel approach to solving the MDS and MTDS problems efficiently.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Distributed-algorithms-for-minimum-dominating-set" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/RS-GNN.png" alt="Recommender System" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Recommender System</div>
+    <div class="project-description">Using Graph Neural Networks and classic approaches.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Recommender-System" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/EmotionR.jpg" alt="Face Recognition" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Face Recognition using ResNet</div>
+    <div class="project-description">Detecting facial emotions with deep learning.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Face-Recognition" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/motion.png" alt="Motion Discriminator" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Motion Discriminator</div>
+    <div class="project-description">Cognitive and neural models for decision-making.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Motion-discriminator" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/job.png" alt="Stereotypical Job Beliefs" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Stereotypical Job Beliefs</div>
+    <div class="project-description">Assessing gender biases in job roles.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Stereotypical-beliefs-about-jobs" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/Temp.png" alt="Temporal Bisection" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Temporal Bisection</div>
+    <div class="project-description">Studying time perception by measuring and comparing stimulus durations.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Temporal-Bisection" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/winsc.png" alt="Wisconsin Task" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Wisconsin Task</div>
+    <div class="project-description">A neuropsychological test assessing cognitive flexibility, abstract thinking, and working memory.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Wisconsin-Card-Sorting-Test" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/svd.png" alt="Singular Value Decomposition" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Singular Value Decomposition</div>
+    <div class="project-description">Implementation of the SVD algorithm in C for efficient matrix factorization.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Singular-value-decomposition" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/sig.png" alt="Signal Generator - ARM STM32" class="project-image">
+  <div class="project-content">
+    <div class="project-title">Signal Generator - ARM STM32</div>
+    <div class="project-description">Designing a signal generator using ARM STM32 microcontrollers.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/Signal-Generator-ARM-stm32" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/timer.png" alt="8086 Timer" class="project-image">
+  <div class="project-content">
+    <div class="project-title">8086 Timer</div>
+    <div class="project-description">Designing a programmable timer in the 8086 assembly using Proteus.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/8086-Timer-In-Proteus" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="/images/pong.png" alt="PONG Game" class="project-image">
+  <div class="project-content">
+    <div class="project-title">PONG Game</div>
+    <div class="project-description">A classic Pong game implemented in 8086 assembly using the Emu8086 framework.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/PONG-Game-in-8086-assembly" class="project-link">🔗 View Project</a>
   </div>
 </div>
 
 </div>
-
-<!-- Show more button -->
-<button class="show-more-btn" id="showMoreBtn">Show All Projects</button>
-
-<script>
-  const btn = document.getElementById('showMoreBtn');
-  const container = document.getElementById('projectsContainer');
-
-  btn.addEventListener('click', () => {
-    container.classList.toggle('show-all');
-    btn.textContent = container.classList.contains('show-all') ? 'Show Less' : 'Show All Projects';
-  });
-</script>
