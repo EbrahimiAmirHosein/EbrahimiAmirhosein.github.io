@@ -12,6 +12,11 @@
   --site-border: #{$border-color};
   --site-code-bg: #{$code-background-color};
   --site-primary: #{$primary-color};
+  --masthead-bg: #fff;
+  --masthead-border: #e2e8f0;
+  --masthead-shadow: rgba(15, 23, 32, 0.04);
+  --masthead-link: #{$masthead-link-color};
+  --masthead-link-hover: #{$masthead-link-color-hover};
 }
 
 /* Use variables for base elements so overrides work site-wide */
@@ -28,55 +33,122 @@ pre, code { background: var(--site-code-bg); }
 hr { border-top-color: var(--site-border); }
 blockquote { border-left-color: var(--site-primary); }
 
-/* Masthead & navigation tweaks (ensure contrast in dark mode) */
-.masthead { background: transparent; }
-.masthead a { color: var(--site-primary); }
+/* Masthead & navigation colors follow theme tokens */
+.masthead {
+  background: var(--masthead-bg);
+  border-bottom-color: var(--masthead-border);
+  box-shadow: 0 10px 35px var(--masthead-shadow);
+  backdrop-filter: blur(10px);
+}
 
-/* Theme toggle button styles (simple, clean pill with icon) */
-.masthead__theme-toggle {
+.masthead .greedy-nav {
+  background: transparent;
+}
+
+.masthead .greedy-nav a {
+  color: var(--masthead-link);
+}
+
+.masthead .greedy-nav a:hover {
+  color: var(--masthead-link-hover);
+}
+
+/* Floating theme toggle (slide button) */
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+.theme-toggle__track {
+  position: relative;
+  width: 56px;
+  height: 28px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  display: inline-flex;
+  align-items: center;
+  padding: 0 6px;
+  gap: 0.35rem;
+  transition: background 200ms ease, border-color 200ms ease;
+}
+
+.theme-toggle__thumb {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
+  top: 50%;
+  left: 2px;
+  transform: translate(0, -50%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 220ms ease, background 200ms ease;
+}
+
+.theme-toggle__icon {
+  width: 16px;
+  height: 16px;
+  color: #ffba08;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 28px;
-  margin-left: 0.5rem;
-  padding: 0;
-  border-radius: 999px;
-  border: 1px solid rgba(0,0,0,0.08);
-  background: transparent;
-  cursor: pointer;
-  transition: background 180ms ease, transform 180ms ease, border-color 180ms ease;
-}
-.masthead__theme-toggle:focus { outline: none; box-shadow: 0 0 0 3px rgba(100,150,255,0.12); }
-.masthead__theme-toggle .theme-icon { display: inline-block; width: 20px; height: 20px; }
-
-/* Button appearance in dark theme */
-[data-theme='dark'] .masthead__theme-toggle {
-  border-color: rgba(255,255,255,0.06);
+  opacity: 0.65;
+  transition: opacity 200ms ease, color 200ms ease;
 }
 
-/* icon color & micro-interaction */
-.masthead__theme-toggle { color: var(--site-text); background: rgba(0,0,0,0.02); }
-.masthead__theme-toggle:hover { transform: translateY(-1px); }
-.masthead__theme-toggle:active { transform: translateY(0); }
-.masthead__theme-toggle .theme-icon svg { display: block; width: 20px; height: 20px; color: currentColor; transition: transform 240ms ease, opacity 180ms ease; }
-[data-theme='dark'] .masthead__theme-toggle { color: var(--site-text); background: rgba(255,255,255,0.02); }
+.theme-toggle__icon--moon {
+  color: #7cc2ff;
+}
 
-/* Ensure the toggle isn't hidden by the greedy-nav absolute button (navicon).
-   Place it to the left of the navicon on larger screens. */
-.masthead nav .masthead__theme-toggle {
+.theme-toggle__sr-label {
   position: absolute;
-  right: 3.5rem; /* leave space for the primary nav button */
-  top: 0;
-  height: 100%;
-  display: inline-flex;
-  align-items: center;
-  z-index: 30;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
-@include breakpoint($medium) {
-  /* on small screens the nav collapses; keep the toggle inline with menu */
-  .masthead nav .masthead__theme-toggle { right: 2.5rem; }
+.theme-toggle:focus-visible .theme-toggle__track {
+  box-shadow: 0 0 0 3px rgba(87, 142, 255, 0.35);
+}
+
+.theme-toggle.is-dark .theme-toggle__thumb {
+  transform: translate(26px, -50%);
+  background: #1f2933;
+}
+
+.theme-toggle.is-dark .theme-toggle__track {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.theme-toggle.is-dark .theme-toggle__icon--moon {
+  opacity: 1;
+}
+
+.theme-toggle.is-dark .theme-toggle__icon--sun {
+  opacity: 0.4;
+}
+
+.theme-toggle:not(.is-dark) .theme-toggle__icon--sun {
+  opacity: 1;
+}
+
+.theme-toggle:not(.is-dark) .theme-toggle__icon--moon {
+  opacity: 0.4;
 }
 
 
@@ -90,9 +162,9 @@ blockquote { border-left-color: var(--site-primary); }
   --site-border: #21313c;
   --site-code-bg: #071323; /* dark code bg */
   --site-primary: #66c0ff; /* accent */
+  --masthead-bg: rgba(9, 14, 22, 0.95);
+  --masthead-border: #15202b;
+  --masthead-shadow: rgba(3, 8, 14, 0.75);
+  --masthead-link: #9fcfff;
+  --masthead-link-hover: #fff;
 }
-
-/* Remove automatic overrides from prefers-color-scheme so explicit user
-   selections (data-theme) always take precedence. If you want the site to
-   follow system preferences when no explicit choice exists, the head
-   boot script already handles that. */
