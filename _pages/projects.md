@@ -20,13 +20,16 @@ author_profile: true
     transition: all 0.3s ease;
     border-radius: 12px;
     overflow: hidden;
-    background: white;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    background: var(--card-bg, #fff);
+    border: 1px solid var(--card-border, rgba(0,0,0,0.08));
+    box-shadow: var(--card-shadow, 0 2px 6px rgba(0,0,0,0.08));
+    color: var(--site-text, #1f2937);
   }
 
   .project-card:hover {
     transform: scale(1.05);
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--card-hover-shadow, 0px 8px 16px rgba(0, 0, 0, 0.2));
+    border-color: var(--site-primary, #2563eb);
   }
 
   .project-image {
@@ -47,13 +50,13 @@ author_profile: true
   .project-title {
     font-size: 1.1em;
     font-weight: bold;
-    color: #2c3e50;
+    color: var(--site-text, #1f2937);
     margin-bottom: 10px;
   }
 
   .project-description {
     font-size: 0.9em;
-    color: #7f8c8d;
+    color: var(--muted-text, #64748b);
     margin-bottom: 10px;
   }
 
@@ -62,15 +65,15 @@ author_profile: true
     align-self: flex-start;
     padding: 8px 12px;
     font-size: 0.9em;
-    color: white;
-    background-color: #3498db;
+    color: #fff;
+    background-color: var(--site-primary, #2563eb);
     border-radius: 6px;
     text-decoration: none;
     transition: background 0.3s ease-in-out;
   }
 
   .project-link:hover {
-    background-color: #2980b9;
+    background-color: var(--site-link-hover, #1d4ed8);
   }
 </style>
 
