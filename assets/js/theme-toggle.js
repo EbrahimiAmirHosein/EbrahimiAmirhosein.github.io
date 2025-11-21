@@ -30,7 +30,14 @@
     var btn = document.getElementById('theme-toggle');
     if (!btn) return;
 
-    var initial = document.documentElement.getAttribute('data-theme') || getStoredTheme() || 'light';
+    var stored = getStoredTheme();
+    var applied = document.documentElement.getAttribute('data-theme');
+    var initial = stored || applied || 'light';
+
+    if (applied !== initial) {
+      document.documentElement.setAttribute('data-theme', initial);
+    }
+
     updateToggle(initial);
 
     btn.addEventListener('click', function(event){

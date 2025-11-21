@@ -29,6 +29,7 @@ author_profile: true
   .project-card:hover {
     transform: scale(1.05);
     box-shadow: var(--card-hover-shadow, 0px 8px 16px rgba(0, 0, 0, 0.2));
+    background: var(--card-hover-bg, var(--card-bg, #fff));
     border-color: var(--site-primary, #2563eb);
   }
 

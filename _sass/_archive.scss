@@ -102,6 +102,7 @@
 
   transform: translateY(-6px);
   box-shadow: var(--card-hover-shadow, 0 25px 35px rgba(#000, 0.12));
+  background: var(--card-hover-bg, var(--card-bg, #fff));
   border-color: var(--site-primary, $primary-color);
 }
 

@@ -11,16 +11,17 @@ author_profile: true
     margin: 0 auto;
     padding: 40px 20px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--site-text);
   }
 
   /* Section Titles */
   .pub-section-title {
     font-size: 1.9rem;
     font-weight: 700;
-    color: #1f2937;
+    color: var(--site-text);
     margin: 50px 0 25px 0;
     padding-left: 14px;
-    border-left: 6px solid #3b82f6;
+    border-left: 6px solid var(--site-primary);
   }
 
   /* Vertical timeline connector */
@@ -28,7 +29,7 @@ author_profile: true
     list-style: none;
     padding: 0;
     margin-left: 15px;
-    border-left: 2px solid #d1d5db;
+    border-left: 2px solid var(--site-border);
   }
 
   /* Publication item */
@@ -36,10 +37,13 @@ author_profile: true
     position: relative;
     padding: 18px 22px;
     margin: 22px 0;
-    border-radius: 10px;
+    border-radius: 14px;
     transition: all 0.25s ease;
-    background: rgba(255, 255, 255, 0.6);
-    border: 1px solid #e5e7eb;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    box-shadow: var(--card-shadow);
+    color: var(--site-text);
+    backdrop-filter: blur(6px);
   }
 
   /* Dot on the timeline */
@@ -50,16 +54,17 @@ author_profile: true
     top: 22px;
     width: 12px;
     height: 12px;
-    background: #3b82f6;
+    background: var(--site-primary);
     border-radius: 50%;
-    border: 2px solid white;
-    box-shadow: 0 0 0 3px #d1d5db;
+    border: 2px solid var(--surface-bg);
+    box-shadow: 0 0 0 3px var(--site-border);
   }
 
   .pub-item:hover {
-    background: rgba(59, 130, 246, 0.06);
-    border-color: #3b82f6;
-    transform: translateY(-2px);
+    background: var(--card-hover-bg);
+    border-color: var(--site-primary);
+    box-shadow: var(--card-hover-shadow);
+    transform: translateY(-4px);
   }
 
   /* Text styles */
@@ -67,30 +72,31 @@ author_profile: true
     font-size: 1.15rem;
     font-weight: 600;
     margin-bottom: 6px;
-    color: #1f2937;
+    color: var(--site-text);
   }
 
   .pub-authors {
-    color: #4b5563;
+    color: var(--muted-text);
     font-style: italic;
     margin-bottom: 4px;
   }
 
   .pub-source {
     font-size: 0.95rem;
-    color: #2563eb;
+    color: var(--site-primary);
     font-weight: 500;
     margin-bottom: 12px;
   }
 
   .pub-link {
-    color: #3b82f6;
+    color: var(--site-link);
     text-decoration: none;
     font-weight: 500;
     font-size: 0.95rem;
   }
   .pub-link:hover {
     text-decoration: underline;
+    color: var(--site-link-hover);
   }
 
   /* Variant colors */

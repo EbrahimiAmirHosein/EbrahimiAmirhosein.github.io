@@ -11,6 +11,7 @@
   --card-border: rgba(15, 23, 42, 0.08);
   --card-shadow: 0 18px 35px rgba(15, 23, 42, 0.08);
   --card-hover-shadow: 0 30px 55px rgba(15, 23, 42, 0.12);
+  --card-hover-bg: #f8fbff;
   --site-text: #1f2937;
   --muted-text: #4b5563;
   --site-link: #2563eb;
@@ -177,6 +178,7 @@ blockquote { border-left-color: var(--site-primary); }
   --card-border: rgba(99, 122, 161, 0.4);
   --card-shadow: 0 18px 45px rgba(0, 0, 0, 0.55);
   --card-hover-shadow: 0 28px 65px rgba(0, 0, 0, 0.7);
+  --card-hover-bg: #182238;
   --masthead-bg: rgba(5, 9, 16, 0.94);
   --masthead-border: #1a2535;
   --masthead-shadow: rgba(0, 0, 0, 0.65);
