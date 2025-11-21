@@ -1,5 +1,5 @@
-/* Particle background powered by tsParticles. Draws subtle dots and
-   connecting lines that adapt to the current theme colors. */
+/* Particle background powered by tsParticles. Provides a subtle network of
+   dots and connecting lines that respect the current theme colors. */
 (function(){
   'use strict';
 
@@ -14,7 +14,7 @@
 
   function buildOptions() {
     var primary = getCssVar('--site-primary', '#5bb6ff');
-    var link = getCssVar('--masthead-link', primary);
+    var accent = getCssVar('--masthead-link', primary);
 
     return {
       fullScreen: { enable: false },
@@ -22,20 +22,20 @@
       background: { color: { value: 'transparent' } },
       particles: {
         number: {
-          value: 52,
+          value: 48,
           density: { enable: true, area: 900 }
         },
         color: { value: primary },
         links: {
           enable: true,
           distance: 140,
-          color: link,
+          color: accent,
           opacity: 0.35,
           width: 1
         },
         move: {
           enable: true,
-          speed: 0.6,
+          speed: 0.55,
           direction: 'none',
           random: false,
           straight: false,
@@ -45,7 +45,7 @@
           value: { min: 0.2, max: 0.5 }
         },
         size: {
-          value: { min: 0.8, max: 2.5 }
+          value: { min: 0.8, max: 2.4 }
         },
         collisions: { enable: false },
         shape: { type: 'circle' }
@@ -57,7 +57,7 @@
           resize: true
         },
         modes: {
-          repulse: { distance: 120, duration: 0.35 }
+          repulse: { distance: 110, duration: 0.35 }
         }
       }
     };
@@ -77,10 +77,7 @@
     var container = document.getElementById(CONTAINER_ID);
     if (!container) return;
     destroyParticles();
-    window.tsParticles.load({
-      id: CONTAINER_ID,
-      options: buildOptions()
-    });
+    window.tsParticles.load({ id: CONTAINER_ID, options: buildOptions() });
   }
 
   function ensureLibraryReady(callback) {
