@@ -10,11 +10,21 @@
     }
   }
 
-  function applyTheme(theme) {
+  function setThemeAttr(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+  }
+
+  function persistTheme(theme) {
     try {
-      document.documentElement.setAttribute('data-theme', theme);
       localStorage.setItem('theme', theme);
     } catch (e) {}
+  }
+
+  function applyTheme(theme, persist) {
+    setThemeAttr(theme);
+    if (persist !== false) {
+      persistTheme(theme);
+    }
     updateToggle(theme);
   }
 
@@ -34,17 +44,13 @@
     var applied = document.documentElement.getAttribute('data-theme');
     var initial = stored || applied || 'light';
 
-    if (applied !== initial) {
-      document.documentElement.setAttribute('data-theme', initial);
-    }
-
-    updateToggle(initial);
+    applyTheme(initial, !!stored);
 
     btn.addEventListener('click', function(event){
       event.preventDefault();
-      var current = document.documentElement.getAttribute('data-theme') || getStoredTheme() || 'light';
+      var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
       var next = current === 'dark' ? 'light' : 'dark';
-      applyTheme(next);
+      applyTheme(next, true);
     });
   });
 
