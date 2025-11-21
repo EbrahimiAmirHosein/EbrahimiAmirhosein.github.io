@@ -32,26 +32,50 @@ blockquote { border-left-color: var(--site-primary); }
 .masthead { background: transparent; }
 .masthead a { color: var(--site-primary); }
 
-/* Dark theme values */
-[data-theme='dark'] {
-  --site-bg: #0b0f12; /* dark background */
-  --site-text: #d7e1e8; /* light text */
-  --site-link: #8ab4ff;
-  --site-link-hover: #bcd8ff;
-  --site-border: #1f2933;
-  --site-code-bg: #071018;
-  --site-primary: #9aa6b0;
+/* Theme toggle button styles (simple, clean pill with icon) */
+.masthead__theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 28px;
+  margin-left: 0.5rem;
+  padding: 0;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: transparent;
+  cursor: pointer;
+  transition: background 180ms ease, transform 180ms ease, border-color 180ms ease;
+}
+.masthead__theme-toggle:focus { outline: none; box-shadow: 0 0 0 3px rgba(100,150,255,0.12); }
+.masthead__theme-toggle .theme-icon { display: inline-block; width: 20px; height: 20px; }
+
+/* Button appearance in dark theme */
+[data-theme='dark'] .masthead__theme-toggle {
+  border-color: rgba(255,255,255,0.06);
 }
 
-/* If user has system dark preference (and no explicit theme), provide fallback */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --site-bg: #0b0f12;
-    --site-text: #d7e1e8;
-    --site-link: #8ab4ff;
-    --site-link-hover: #bcd8ff;
-    --site-border: #1f2933;
-    --site-code-bg: #071018;
-    --site-primary: #9aa6b0;
-  }
+/* icon color & micro-interaction */
+.masthead__theme-toggle { color: var(--site-text); background: rgba(0,0,0,0.02); }
+.masthead__theme-toggle:hover { transform: translateY(-1px); }
+.masthead__theme-toggle:active { transform: translateY(0); }
+.masthead__theme-toggle .theme-icon svg { display: block; width: 20px; height: 20px; color: currentColor; transition: transform 240ms ease, opacity 180ms ease; }
+[data-theme='dark'] .masthead__theme-toggle { color: var(--site-text); background: rgba(255,255,255,0.02); }
+
+
+/* Dark theme values */
+[data-theme='dark'] {
+  /* improved dark palette */
+  --site-bg: #0f1720; /* deep blue-black */
+  --site-text: #e6eef6; /* soft light text */
+  --site-link: #7cc2ff; /* pleasant blue link */
+  --site-link-hover: #bfe6ff;
+  --site-border: #21313c;
+  --site-code-bg: #071323; /* dark code bg */
+  --site-primary: #66c0ff; /* accent */
 }
+
+/* Remove automatic overrides from prefers-color-scheme so explicit user
+   selections (data-theme) always take precedence. If you want the site to
+   follow system preferences when no explicit choice exists, the head
+   boot script already handles that. */
