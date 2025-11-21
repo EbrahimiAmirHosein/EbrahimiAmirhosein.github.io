@@ -31,7 +31,8 @@
 
 /* Use variables for base elements so overrides work site-wide */
 html, body {
-  background: var(--site-bg);
+  background: #ffffff;
+  background: var(--site-bg, #ffffff);
   color: var(--site-text);
 }
 
