@@ -62,6 +62,23 @@ blockquote { border-left-color: var(--site-primary); }
 .masthead__theme-toggle .theme-icon svg { display: block; width: 20px; height: 20px; color: currentColor; transition: transform 240ms ease, opacity 180ms ease; }
 [data-theme='dark'] .masthead__theme-toggle { color: var(--site-text); background: rgba(255,255,255,0.02); }
 
+/* Ensure the toggle isn't hidden by the greedy-nav absolute button (navicon).
+   Place it to the left of the navicon on larger screens. */
+.masthead nav .masthead__theme-toggle {
+  position: absolute;
+  right: 3.5rem; /* leave space for the primary nav button */
+  top: 0;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  z-index: 30;
+}
+
+@include breakpoint($medium) {
+  /* on small screens the nav collapses; keep the toggle inline with menu */
+  .masthead nav .masthead__theme-toggle { right: 2.5rem; }
+}
+
 
 /* Dark theme values */
 [data-theme='dark'] {
