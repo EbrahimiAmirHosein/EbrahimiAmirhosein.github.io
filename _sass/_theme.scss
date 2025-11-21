@@ -35,21 +35,6 @@ html, body {
   color: var(--site-text);
 }
 
-#particles-background {
-  position: fixed;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  pointer-events: none;
-  opacity: 0.8;
-  transition: opacity 200ms ease;
-}
-
-[data-theme='dark'] #particles-background {
-  opacity: 0.6;
-}
-
 a { color: var(--site-link); }
 a:hover { color: var(--site-link-hover); }
 
