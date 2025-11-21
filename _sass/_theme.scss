@@ -1,0 +1,57 @@
+/* Theme tokens powered by CSS Custom Properties
+   This file defines default CSS variables (using SCSS color variables) and
+   a dark-mode override keyed by [data-theme="dark"]. It also provides a
+   prefers-color-scheme fallback.
+*/
+
+:root {
+  --site-bg: #{$background-color};
+  --site-text: #{$text-color};
+  --site-link: #{$link-color};
+  --site-link-hover: #{$link-color-hover};
+  --site-border: #{$border-color};
+  --site-code-bg: #{$code-background-color};
+  --site-primary: #{$primary-color};
+}
+
+/* Use variables for base elements so overrides work site-wide */
+html, body {
+  background: var(--site-bg);
+  color: var(--site-text);
+}
+
+a { color: var(--site-link); }
+a:hover { color: var(--site-link-hover); }
+
+pre, code { background: var(--site-code-bg); }
+
+hr { border-top-color: var(--site-border); }
+blockquote { border-left-color: var(--site-primary); }
+
+/* Masthead & navigation tweaks (ensure contrast in dark mode) */
+.masthead { background: transparent; }
+.masthead a { color: var(--site-primary); }
+
+/* Dark theme values */
+[data-theme='dark'] {
+  --site-bg: #0b0f12; /* dark background */
+  --site-text: #d7e1e8; /* light text */
+  --site-link: #8ab4ff;
+  --site-link-hover: #bcd8ff;
+  --site-border: #1f2933;
+  --site-code-bg: #071018;
+  --site-primary: #9aa6b0;
+}
+
+/* If user has system dark preference (and no explicit theme), provide fallback */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --site-bg: #0b0f12;
+    --site-text: #d7e1e8;
+    --site-link: #8ab4ff;
+    --site-link-hover: #bcd8ff;
+    --site-border: #1f2933;
+    --site-code-bg: #071018;
+    --site-primary: #9aa6b0;
+  }
+}

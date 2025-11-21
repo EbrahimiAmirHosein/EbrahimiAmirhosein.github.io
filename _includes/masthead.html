@@ -16,6 +16,10 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
+        <!-- Theme toggle -->
+        <button id="theme-toggle" class="masthead__menu-item masthead__theme-toggle" aria-pressed="false" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <span class="theme-icon">🌓</span>
+        </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>

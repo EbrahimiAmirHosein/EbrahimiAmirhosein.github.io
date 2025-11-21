@@ -39,3 +39,7 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Theme variables and dark-mode overrides (must be after other imports so
+	overrides take effect). */
+@import "theme";

@@ -12,6 +12,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
+  // Theme boot: apply saved theme (or system preference) before styles load to avoid flash
+  (function(){
+    try {
+      var t = localStorage.getItem('theme');
+      if(!t) {
+        if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          t = 'dark';
+        } else {
+          t = 'light';
+        }
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    } catch(e) {}
+  })();
+
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
