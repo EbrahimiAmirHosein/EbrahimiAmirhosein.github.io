@@ -5,18 +5,24 @@
 */
 
 :root {
-  --site-bg: #{$background-color};
-  --site-text: #{$text-color};
-  --site-link: #{$link-color};
-  --site-link-hover: #{$link-color-hover};
-  --site-border: #{$border-color};
-  --site-code-bg: #{$code-background-color};
-  --site-primary: #{$primary-color};
-  --masthead-bg: #fff;
+  --site-bg: #f6f8fb;
+  --surface-bg: #ffffff;
+  --card-bg: #ffffff;
+  --site-text: #1f2937;
+  --muted-text: #4b5563;
+  --site-link: #2563eb;
+  --site-link-hover: #1d4ed8;
+  --site-border: #e2e8f0;
+  --site-code-bg: #f2f6fd;
+  --site-primary: #2563eb;
+  --masthead-bg: rgba(255, 255, 255, 0.92);
   --masthead-border: #e2e8f0;
-  --masthead-shadow: rgba(15, 23, 32, 0.04);
-  --masthead-link: #{$masthead-link-color};
-  --masthead-link-hover: #{$masthead-link-color-hover};
+  --masthead-shadow: rgba(15, 23, 42, 0.08);
+  --masthead-link: #0f172a;
+  --masthead-link-hover: #2563eb;
+  --footer-bg: #eef2f7;
+  --footer-text: #475569;
+  --footer-link: #1d4ed8;
 }
 
 /* Use variables for base elements so overrides work site-wide */
@@ -154,17 +160,23 @@ blockquote { border-left-color: var(--site-primary); }
 
 /* Dark theme values */
 [data-theme='dark'] {
-  /* improved dark palette */
-  --site-bg: #0f1720; /* deep blue-black */
-  --site-text: #e6eef6; /* soft light text */
-  --site-link: #7cc2ff; /* pleasant blue link */
-  --site-link-hover: #bfe6ff;
-  --site-border: #21313c;
-  --site-code-bg: #071323; /* dark code bg */
-  --site-primary: #66c0ff; /* accent */
-  --masthead-bg: rgba(9, 14, 22, 0.95);
-  --masthead-border: #15202b;
-  --masthead-shadow: rgba(3, 8, 14, 0.75);
-  --masthead-link: #9fcfff;
-  --masthead-link-hover: #fff;
+  /* refined dark palette */
+  --site-bg: #050910;
+  --surface-bg: #0c121d;
+  --card-bg: #111a2b;
+  --site-text: #e9f0fb;
+  --muted-text: #8ba0bf;
+  --site-link: #7ec2ff;
+  --site-link-hover: #b6deff;
+  --site-border: #1f2b3c;
+  --site-code-bg: #091120;
+  --site-primary: #5bb6ff;
+  --masthead-bg: rgba(5, 9, 16, 0.94);
+  --masthead-border: #1a2535;
+  --masthead-shadow: rgba(0, 0, 0, 0.65);
+  --masthead-link: #d7ebff;
+  --masthead-link-hover: #ffffff;
+  --footer-bg: #0b111b;
+  --footer-text: #a9c1df;
+  --footer-link: #cfe7ff;
 }
