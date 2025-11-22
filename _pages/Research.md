@@ -74,9 +74,49 @@ author_profile: true
     color: #10b981;
     margin-top: 5px;
   }
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 20px;
+  }
+
+  .current-research {
+    margin-bottom: 45px;
+    padding: 20px;
+    border-radius: 14px;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  }
+
+  .current-research h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #0f172a;
+  }
+
+  .current-research p {
+    color: #334155;
+    line-height: 1.65;
+  }
+
+  .current-research a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
 </style>
 
 <div class="research-wrapper">
+
+<h2 class="section-title">Research Interest</h2>
 
 <!-- INTRO SECTION -->
 <div class="intro-section">
@@ -91,6 +131,21 @@ author_profile: true
 </div>
 
 <!-- <img src="/files/github-gif-2.gif" class="intro-gif" style="display:block; margin: 0 auto 40px auto; width: 80%; max-width: 500px;"> -->
+
+
+<div class="current-research">
+  <h3>Current Research: LungInsight</h3>
+  <p>
+    I am building <b>LungInsight</b>, a serverless dockerized platform that accelerates histological
+    annotation workflows for acute respiratory distress syndrome (ARDS) and related lung studies.
+    The system blends lightweight cloud deployment with computer-vision assisted tooling so
+    pathologists can review slides faster, align labels, and export structured annotations directly
+    into downstream ML pipelines.
+  </p>
+  <a href="https://github.com/EbrahimiAmirHosein/LungHistoNet">Explore LungInsight</a>
+</div>
+
+<h2 class="section-title">Research Experience</h2>
 
 
 <!-- MER LAB -->
