@@ -72,23 +72,29 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  width: 120px;
+  text-align: center;
 
   @include breakpoint($large) {
     display: block;
     width: auto;
-    height: auto;
+    margin-bottom: 1.25rem;
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    max-width: none;
+    border-radius: 28px;
+    object-fit: cover;
+    object-position: center;
+    display: inline-block;
+    box-shadow: 0 12px 30px rgba(#000, 0.12);
 
     @include breakpoint($large) {
-      padding: 5px;
+      padding: 6px;
       border: 1px solid $border-color;
+      background: var(--surface-bg, #fff);
     }
   }
 }
