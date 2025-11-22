@@ -145,6 +145,8 @@ author_profile: true
   <a href="https://lunginsight.ai/">Explore LungInsight</a>
 </div>
 
+<h2 class="section-title">Research Experience</h2>
+
 
 <!-- MER LAB -->
 <div class="research-block">
