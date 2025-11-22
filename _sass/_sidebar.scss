@@ -70,31 +70,29 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 120px;
-  text-align: center;
+  display: block;
+  width: 130px;
+  margin: 0 auto;
 
   @include breakpoint($large) {
-    display: block;
-    width: auto;
-    margin-bottom: 1.25rem;
+    width: 150px;
   }
 
   img {
     width: 130px;
     height: 130px;
-    max-width: none;
-    border-radius: 28px;
+    border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    display: inline-block;
-    box-shadow: 0 12px 30px rgba(#000, 0.12);
+    display: block;
+    margin: 0 auto;
 
     @include breakpoint($large) {
-      padding: 6px;
+      width: 150px;
+      height: 150px;
+      padding: 5px;
       border: 1px solid $border-color;
-      background: var(--surface-bg, #fff);
+      background: #fff;
     }
   }
 }

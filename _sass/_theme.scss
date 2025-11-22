@@ -5,7 +5,7 @@
 */
 
 :root {
-  --site-bg: #ffffff;
+  --site-bg: #f6f8fb;
   --surface-bg: #ffffff;
   --card-bg: #ffffff;
   --card-border: rgba(15, 23, 42, 0.08);
@@ -31,8 +31,7 @@
 
 /* Use variables for base elements so overrides work site-wide */
 html, body {
-  background: #ffffff;
-  background: var(--site-bg, #ffffff);
+  background: var(--site-bg);
   color: var(--site-text);
 }
 
