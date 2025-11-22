@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research Experience"
+title: ""
 permalink: /Research/
 author_profile: true
 ---
@@ -116,7 +116,7 @@ author_profile: true
 
 <div class="research-wrapper">
 
-<!-- <h2 class="section-title">Research Interest</h2> -->
+<h2 class="section-title">Research Interest</h2>
 
 <!-- INTRO SECTION -->
 <div class="intro-section">
