@@ -136,16 +136,14 @@ author_profile: true
 <div class="current-research">
   <h3>Current Research: LungInsight</h3>
   <p>
-    I am building <b>LungInsight</b>, a serverless dockerized platform that accelerates histological
-    annotation workflows for acute respiratory distress syndrome (ARDS) and related lung studies.
-    The system blends lightweight cloud deployment with computer-vision assisted tooling so
-    pathologists can review slides faster, align labels, and export structured annotations directly
-    into downstream ML pipelines.
+    LungInsight aims to improve how researchers assess lung injury in preclinical models of Acute Lung Injury (ALI).
+    We are developing easy-to-use AI tools that can analyze histological images more quickly, consistently,
+    and accurately than current manual methods. By reducing bias and adding clear, explainable outputs,
+    our approach helps standardize image evaluation across labs. Ultimately, LungInsight supports faster,
+    more reliable research that can deepen our understanding of lung diseases and help guide new treatments.
   </p>
-  <a href="https://github.com/EbrahimiAmirHosein/LungHistoNet">Explore LungInsight</a>
+  <a href="https://lunginsight.ai/">Explore LungInsight</a>
 </div>
-
-<h2 class="section-title">Research Experience</h2>
 
 
 <!-- MER LAB -->
