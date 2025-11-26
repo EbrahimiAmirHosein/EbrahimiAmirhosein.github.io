@@ -23,7 +23,9 @@ ul.twocol { width: 110%; }
 Hi, I'm <span class="highlight">Amirhossein Ebrahimi</span>, a Master's student in Biomedical Engineering, with a deep passion for <span class="highlight">Artificial Intelligence in Healthcare</span>.
 </p>
 
-I earned my Bachelor's degree from **Shahid Beheshti University**, and now, I'm thrilled to embark on my next academic chapter at the **University of Ottawa**. Under the mentorship of [Professor Arvind Mer](https://scholar.google.com/citations?user=Xy6KKl8AAAAJ&hl=en), I am diving into cutting-edge research at the intersection of **AI and healthcare**, aiming to drive meaningful **social impact**.
+I am currently pursuing my **Master’s degree** at the **University of Ottawa**, where I am excited to engage in advanced research at the intersection of **AI and healthcare**. Under the mentorship of [**Professor Arvind Mer**](https://scholar.google.com/citations?user=Xy6KKl8AAAAJ&hl=en), I am dedicated to developing innovative solutions that drive meaningful **social impact**.
+
+
 
 ###  Research Interests
 I am particularly fascinated by the transformative power of AI in medical applications, with a keen focus on:
