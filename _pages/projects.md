@@ -112,6 +112,15 @@ author_profile: true
 <!-- ================= EXISTING PROJECTS ================= -->
 
 <div class="project-card">
+  <img src="/images/MLMM.png" alt="Bird Classification" class="project-image">
+  <div class="project-content">
+    <div class="project-title">MyelomaResponseNet</div>
+    <div class="project-description">This repository contains a complete machine learning workflow designed to classify early treatment response at three months (Fast vs. Slow responders) in multiple myeloma patients using RNA-seq and microarray gene expression data.</div>
+    <a href="https://github.com/EbrahimiAmirHosein/MyelomaResponseNet" class="project-link">🔗 View Project</a>
+  </div>
+</div>
+
+<div class="project-card">
   <img src="/images/birds.jpeg" alt="Bird Classification" class="project-image">
   <div class="project-content">
     <div class="project-title">Sound Bird Classification</div>
