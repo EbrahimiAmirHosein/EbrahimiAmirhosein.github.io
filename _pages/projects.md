@@ -83,15 +83,6 @@ author_profile: true
 <!-- ================= NEW PROJECTS (TOP) ================= -->
 
 <div class="project-card">
-  <img src="/images/ML_MM.png" alt="Multi-Cohort ML Pipeline for Multiple Myeloma" class="project-image">
-  <div class="project-content">
-    <div class="project-title">Multi-Cohort ML Pipeline for Multiple Myeloma</div>
-    <div class="project-description">Predict early treatment response and survival outcomes using RNA-seq and microarray gene expression data. Includes Kaplan–Meier survival analysis.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/gene-expression-response-predictor" class="project-link">🔗 View Project</a>
-  </div>
-</div>
-
-<div class="project-card">
   <img src="/images/TCGA-HUB.png" alt="TCGA Histology Hub" class="project-image">
   <div class="project-content">
     <div class="project-title">TCGA-Histology-Hub</div>
@@ -112,10 +103,10 @@ author_profile: true
 <!-- ================= EXISTING PROJECTS ================= -->
 
 <div class="project-card">
-  <img src="/images/MLMM.png" alt="Bird Classification" class="project-image">
+  <img src="/images/ML_MM.png" alt="Multi-Cohort ML Pipeline for Multiple Myeloma" class="project-image">
   <div class="project-content">
-    <div class="project-title">MyelomaResponseNet</div>
-    <div class="project-description">This repository contains a complete machine learning workflow designed to classify early treatment response at three months (Fast vs. Slow responders) in multiple myeloma patients using RNA-seq and microarray gene expression data.</div>
+    <div class="project-title">Multi-Cohort ML Pipeline for Multiple Myeloma</div>
+    <div class="project-description">Predict early treatment response and survival outcomes using RNA-seq and microarray gene expression data. Includes Kaplan–Meier survival analysis.</div>
     <a href="https://github.com/EbrahimiAmirHosein/MyelomaResponseNet" class="project-link">🔗 View Project</a>
   </div>
 </div>
