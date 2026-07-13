@@ -31,11 +31,11 @@ I am currently pursuing my **Master’s degree** at the **University of Ottawa**
 I am particularly fascinated by the transformative power of AI in medical applications, with a keen focus on:
 
 <ul class="twocol" markdown='1'>
-  <li> <b>Graph Neural Networks</b></li>
   <li> <b>Computer Vision</b></li>
   <li> <b>Computational Pathology</b></li>
   <li> <b>Bioinformatics</b></li>
-  <li> <b>Machine Learning</b></li>
+  <li> <b>Explainable AI (XAI)</b></li>
+  <li> <b>Graph Neural Networks</b></li>
 </ul>
 
  My goal? To **push the boundaries of AI-driven innovation** in healthcare, bridging the gap between technology and human well-being.  
