@@ -143,6 +143,25 @@ author_profile: true
   <!-- JOURNAL ARTICLES -->
   <h2 class="pub-section-title">Journal Articles</h2>
   <ul class="pub-list">
+
+    <li class="pub-item">
+      <div class="pub-title">
+        Artificial Intelligence-enabled Histological Analysis in Pre-clinical Respiratory Disease Models: A Scoping Review
+      </div>
+      <div class="pub-authors">
+        E. Kuhar, J. Park, F. Jahandideh, M. Komeili, …, <b>A. Ebrahimi</b>
+      </div>
+      <div class="pub-source">
+        European Respiratory Review, 2026; 35(180):250243
+      </div>
+      <a
+        class="pub-link"
+        href="https://publications.ersnet.org/content/errev/35/180/250243.abstract"
+      >
+        Read more
+      </a>
+    </li>
+
     <li class="pub-item">
       <div class="pub-title">
         Deciphering Genomic Correlates of Differential Treatment Response Kinetics in Multiple Myeloma
@@ -151,7 +170,7 @@ author_profile: true
         Patrick B, <b>A. Ebrahimi</b>, A. Visram, A. Mer
       </div>
       <div class="pub-source">
-        Clinical Lymphoma, Myeloma &amp; Leukemia, 2025; 25(Suppl. 1): S154
+        Clinical Lymphoma, Myeloma &amp; Leukemia, 2025; 25(Suppl. 1):S154
       </div>
       <a
         class="pub-link"
@@ -168,7 +187,9 @@ author_profile: true
       <div class="pub-authors">
         G. Wu, A. Zaker, <b>A.H. Ebrahimi</b>, S. Tripathi, A. Mer
       </div>
-      <div class="pub-source">Bioinformatics Advances, 2024</div>
+      <div class="pub-source">
+        Bioinformatics Advances, 2024
+      </div>
       <a
         class="pub-link"
         href="https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae047/7644335"
@@ -184,7 +205,9 @@ author_profile: true
       <div class="pub-authors">
         <b>A.H. Ebrahimi</b>, H. Vafaei, M. Asghari, D. Rahmati
       </div>
-      <div class="pub-source">Neurocomputing, 2022</div>
+      <div class="pub-source">
+        Neurocomputing, 2022
+      </div>
       <a
         class="pub-link"
         href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4517541"
@@ -192,31 +215,13 @@ author_profile: true
         Read more
       </a>
     </li>
-  </ul>
 
-  <!-- PREPRINTS -->
-  <h2 class="pub-section-title">Preprints</h2>
-  <ul class="pub-list">
-    <li class="pub-item preprint">
-      <div class="pub-title">
-        Artificial Intelligence-enabled Histological Analysis in Preclinical Respiratory Disease Models: A Scoping Review
-      </div>
-      <div class="pub-authors">
-        Kuhar, E., Park, J., Jahandideh, F., Komeili, … A., Ebrahimi
-      </div>
-      <div class="pub-source">bioRxiv Preprints, 2025</div>
-      <a
-        class="pub-link"
-        href="https://doi.org/10.1101/2025.10.07.675857"
-      >
-        DOI
-      </a>
-    </li>
   </ul>
 
   <!-- CONFERENCE PROCEEDINGS -->
   <h2 class="pub-section-title">Conference Proceedings</h2>
   <ul class="pub-list">
+
     <li class="pub-item conference">
       <div class="pub-title">
         OmicSieve: A General Omics Framework for Compact Component Embeddings
@@ -237,7 +242,9 @@ author_profile: true
         <b>A.H. Ebrahimi</b>, M.R. Zarei, E. Kuhar, P. Karunamurthy,
         K. Pillagawa, F. Jahandideh, M. Komeili, M. Lalu, A. Mer
       </div>
-      <div class="pub-source">Canadian AI 2025, CAIAC</div>
+      <div class="pub-source">
+        Canadian AI 2025, CAIAC
+      </div>
       <a
         class="pub-link"
         href="https://assets.pubpub.org/dwmjptvq/219-31747763773612.pdf"
@@ -253,7 +260,9 @@ author_profile: true
       <div class="pub-authors">
         S. Alipour, <b>A.H. Ebrahimi</b>
       </div>
-      <div class="pub-source">ACM CIKM, 2024</div>
+      <div class="pub-source">
+        ACM CIKM, 2024
+      </div>
       <a
         class="pub-link"
         href="https://drive.google.com/file/d/1uzFTRf3CeWSN7075rZLWK_YzQtbxNmG1/view"
@@ -269,7 +278,9 @@ author_profile: true
       <div class="pub-authors">
         <b>A.H. Ebrahimi</b>, H. Vafaei, D. Rahmati
       </div>
-      <div class="pub-source">NIC, 2022</div>
+      <div class="pub-source">
+        NIC, 2022
+      </div>
       <a
         class="pub-link"
         href="https://cs.ipm.ac.ir/nic/1401/files/Final_proceedings_NIC1401.pdf"
@@ -277,6 +288,7 @@ author_profile: true
         Page 128
       </a>
     </li>
+
   </ul>
 
 </div>
