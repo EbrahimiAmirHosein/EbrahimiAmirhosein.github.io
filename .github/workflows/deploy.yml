@@ -27,6 +27,8 @@ jobs:
       - run: bundle exec jekyll build --destination ../legacy-site
         working-directory: legacy-jekyll
       - run: cp public/CNAME legacy-site/CNAME
+      - run: cp -R public/images legacy-site/images
+      - run: cp -R public/files legacy-site/files
       - uses: actions/upload-pages-artifact@v3
         with:
           path: legacy-site
