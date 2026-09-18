@@ -10,11 +10,29 @@ redirect_from:
 
 <style>
 .farsi { font-family: PERSWEB; font-weight: bold; font-size: 11pt; }
-.header-color { color: #0f2b46; }
-.twocol { columns: 2; }
+.header-color { color: var(--site-text); }
+.twocol { columns: 2; column-gap: 1.75rem; }
 ul.twocol { width: 110%; }
-.highlight { color: #0077b6; font-weight: bold; }
-.intro { font-size: 1.2em; font-weight: bold; color: #0f2b46; }
+ul.twocol li {
+  break-inside: avoid;
+  padding: 0.35em 0;
+  position: relative;
+}
+.highlight { color: var(--site-primary); font-weight: 700; }
+.intro {
+  font-size: 1.25em;
+  font-weight: 600;
+  color: var(--site-text);
+  line-height: 1.55;
+  padding: 1.15rem 1.25rem;
+  margin-bottom: 1.4em;
+  border-radius: 14px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--card-shadow);
+  border-left: 4px solid var(--site-primary);
+  animation: fade-rise 0.55s both;
+}
 </style>
 
 

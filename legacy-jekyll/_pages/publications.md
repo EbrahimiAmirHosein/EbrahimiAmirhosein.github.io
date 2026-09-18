@@ -9,55 +9,60 @@ author_profile: true
   .pubs-container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 40px 20px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 1.5rem 0 2rem;
     color: var(--site-text);
   }
 
   /* Section Titles */
   .pub-section-title {
-    font-size: 1.9rem;
+    font-family: Literata, Georgia, serif;
+    font-size: 1.75rem;
     font-weight: 700;
+    letter-spacing: -0.02em;
     color: var(--site-text);
-    margin: 50px 0 25px 0;
-    padding-left: 14px;
-    border-left: 6px solid var(--site-primary);
+    margin: 2.5rem 0 1.35rem 0;
+    padding-left: 0.9rem;
+    border-left: 4px solid var(--site-primary);
   }
 
   /* Vertical timeline connector */
   .pub-list {
     list-style: none;
     padding: 0;
-    margin-left: 15px;
+    margin-left: 0.85rem;
     border-left: 2px solid var(--site-border);
   }
 
   /* Publication item */
   .pub-item {
     position: relative;
-    padding: 18px 22px;
-    margin: 22px 0;
-    border-radius: 14px;
-    transition: all 0.25s ease;
+    padding: 1.15rem 1.35rem;
+    margin: 1.15rem 0;
+    border-radius: 16px;
+    transition: transform 280ms cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 280ms ease,
+      border-color 280ms ease,
+      background 280ms ease;
     background: var(--card-bg);
     border: 1px solid var(--card-border);
     box-shadow: var(--card-shadow);
     color: var(--site-text);
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(8px);
+    animation: fade-rise 0.5s both;
   }
 
   /* Dot on the timeline */
   .pub-item::before {
     content: "";
     position: absolute;
-    left: -10px;
-    top: 22px;
+    left: -11px;
+    top: 1.45rem;
     width: 12px;
     height: 12px;
     background: var(--site-primary);
     border-radius: 50%;
     border: 2px solid var(--surface-bg);
-    box-shadow: 0 0 0 3px var(--site-border);
+    box-shadow: 0 0 0 3px var(--site-primary-soft);
   }
 
   .pub-item:hover {
@@ -69,30 +74,36 @@ author_profile: true
 
   /* Text styles */
   .pub-title {
-    font-size: 1.15rem;
+    font-family: Literata, Georgia, serif;
+    font-size: 1.12rem;
     font-weight: 600;
-    margin-bottom: 6px;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.4rem;
     color: var(--site-text);
+    line-height: 1.4;
   }
 
   .pub-authors {
     color: var(--muted-text);
     font-style: italic;
-    margin-bottom: 4px;
+    margin-bottom: 0.3rem;
   }
 
   .pub-source {
     font-size: 0.95rem;
     color: var(--site-primary);
-    font-weight: 500;
-    margin-bottom: 12px;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
   }
 
   .pub-link {
     color: var(--site-link);
     text-decoration: none;
-    font-weight: 500;
-    font-size: 0.95rem;
+    font-weight: 600;
+    font-size: 0.92rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
   }
 
   .pub-link:hover {
@@ -102,20 +113,20 @@ author_profile: true
 
   /* Variant colors */
   .preprint::before {
-    background: #ef4444;
+    background: #f43f5e;
   }
 
   .conference::before {
-    background: #a855f7;
+    background: var(--site-accent, #0891b2);
   }
 
   @media (max-width: 768px) {
     .pub-item {
-      padding: 16px;
+      padding: 1rem;
     }
 
     .pub-section-title {
-      font-size: 1.6rem;
+      font-size: 1.45rem;
     }
   }
 </style>

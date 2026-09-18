@@ -9,72 +9,95 @@ author_profile: true
   .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    gap: 1.5rem;
+    padding: 0.5rem 0 1.5rem;
   }
 
   .project-card {
     display: flex;
     flex-direction: column;
     min-height: 370px;
-    transition: all 0.3s ease;
-    border-radius: 12px;
+    transition: transform 280ms cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 280ms ease,
+      border-color 280ms ease,
+      background 280ms ease;
+    border-radius: 16px;
     overflow: hidden;
     background: var(--card-bg, #fff);
     border: 1px solid var(--card-border, rgba(0,0,0,0.08));
     box-shadow: var(--card-shadow, 0 2px 6px rgba(0,0,0,0.08));
     color: var(--site-text, #1f2937);
+    animation: fade-rise 0.5s both;
   }
 
+  .project-card:nth-child(1) { animation-delay: 0.05s; }
+  .project-card:nth-child(2) { animation-delay: 0.1s; }
+  .project-card:nth-child(3) { animation-delay: 0.15s; }
+  .project-card:nth-child(4) { animation-delay: 0.2s; }
+  .project-card:nth-child(5) { animation-delay: 0.25s; }
+  .project-card:nth-child(6) { animation-delay: 0.3s; }
+
   .project-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-6px);
     box-shadow: var(--card-hover-shadow, 0px 8px 16px rgba(0, 0, 0, 0.2));
     background: var(--card-hover-bg, var(--card-bg, #fff));
-    border-color: var(--site-primary, #2563eb);
+    border-color: var(--site-primary, #0d9488);
   }
 
   .project-image {
     height: 200px;
+    width: 100%;
     object-fit: cover;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .project-card:hover .project-image {
+    transform: scale(1.04);
   }
 
   .project-content {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    padding: 15px;
+    justify-content: space-between;
+    padding: 1.1rem 1.15rem 1.2rem;
   }
 
   .project-title {
-    font-size: 1.1em;
-    font-weight: bold;
+    font-family: Literata, Georgia, serif;
+    font-size: 1.12em;
+    font-weight: 700;
+    letter-spacing: -0.02em;
     color: var(--site-text, #1f2937);
-    margin-bottom: 10px;
+    margin-bottom: 0.55rem;
   }
 
   .project-description {
-    font-size: 0.9em;
+    font-size: 0.92em;
+    line-height: 1.55;
     color: var(--muted-text, #64748b);
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
 
   .project-link {
     margin-top: auto;
     align-self: flex-start;
-    padding: 8px 12px;
-    font-size: 0.9em;
+    padding: 0.55em 1em;
+    font-size: 0.88em;
+    font-weight: 600;
     color: #fff;
-    background-color: var(--site-primary, #2563eb);
-    border-radius: 6px;
+    background: linear-gradient(135deg, var(--site-primary, #0d9488), var(--site-accent, #0891b2));
+    border-radius: 10px;
     text-decoration: none;
-    transition: background 0.3s ease-in-out;
+    box-shadow: 0 8px 18px rgba(13, 148, 136, 0.25);
+    transition: transform 220ms ease, filter 220ms ease, box-shadow 220ms ease;
   }
 
   .project-link:hover {
-    background-color: var(--site-link-hover, #1d4ed8);
+    filter: brightness(1.06);
+    transform: translateY(-1px);
+    box-shadow: 0 12px 24px rgba(13, 148, 136, 0.32);
+    color: #fff;
   }
 </style>
 
@@ -87,7 +110,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">TCGA-Histology-Hub</div>
     <div class="project-description">Central hub for downloading, organizing, and summarizing TCGA histology slide data via the GDC API. Supports patient-specific filtering.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/TCGA-Histology-Hub/tree/main/data" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/TCGA-Histology-Hub/tree/main/data" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -96,7 +119,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">LungInsightAnnotation</div>
     <div class="project-description">A serverless dockerized application to streamline histological annotation of lung tissue, especially for ARDS studies.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/LungHistoNet" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/LungHistoNet" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -107,7 +130,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Multi-Cohort ML Pipeline for Multiple Myeloma</div>
     <div class="project-description">Predict early treatment response and survival outcomes using RNA-seq and microarray gene expression data. Includes Kaplan–Meier survival analysis.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/MyelomaResponseNet" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/MyelomaResponseNet" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -116,7 +139,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Sound Bird Classification</div>
     <div class="project-description">Classifying bird sounds using machine learning techniques.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Bird-Clasif-Sysc5405" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Bird-Clasif-Sysc5405" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -125,7 +148,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Text-Mining Based Feature Selection for Anticancer Drug Response Prediction</div>
     <div class="project-description">Text-mined gene features outperform traditional methods for predicting anticancer drug response.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/text_features" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/text_features" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -134,7 +157,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Feature Selection and Cancer Detection</div>
     <div class="project-description">Using machine learning models and feature selection techniques to detect cancer.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Feature-Selection-and-Cancer-Detection/tree/main" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Feature-Selection-and-Cancer-Detection/tree/main" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -143,7 +166,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Microscopic Image Converter (Pathology)</div>
     <div class="project-description">Firefly tool to convert microscopic images (MRXS to SVS).</div>
-    <a href="https://github.com/EbrahimiAmirHosein/MRXS_to_SVS" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/MRXS_to_SVS" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -152,7 +175,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Vulnerability Detection</div>
     <div class="project-description">Using ML for cybersecurity threat detection.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Vulnerability-Detection" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Vulnerability-Detection" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -161,7 +184,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">TempoGaze</div>
     <div class="project-description">Estimating gaze duration and location.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/TempoGaze" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/TempoGaze" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -170,7 +193,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Bio-SFA & Bio-NICA Accelerator</div>
     <div class="project-description">Developing hardware accelerators for bio-inspired networks.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Bio-SFA-bio-NICA-accelerator" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Bio-SFA-bio-NICA-accelerator" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -179,7 +202,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Parameter Estimation using Residual Neural Network</div>
     <div class="project-description">A practical approach for estimating stochastic processes, even when likelihood functions are unknown.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Parameter-estimation-using-residual-neural-network" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Parameter-estimation-using-residual-neural-network" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -188,7 +211,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Comment Verification Using Neural Networks</div>
     <div class="project-description">Developing a system to verify user comments on Digikala using deep learning techniques.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/comment_verification" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/comment_verification" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -197,7 +220,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Generative Adversarial Networks (GANs) Practice</div>
     <div class="project-description">Implementing different GAN architectures and training methodologies.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/GAN-practice" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/GAN-practice" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -206,7 +229,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Minimum Dominating Set in Graphs</div>
     <div class="project-description">A novel approach to solving the MDS and MTDS problems efficiently.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Distributed-algorithms-for-minimum-dominating-set" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Distributed-algorithms-for-minimum-dominating-set" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -215,7 +238,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Recommender System</div>
     <div class="project-description">Using Graph Neural Networks and classic approaches.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Recommender-System" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Recommender-System" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -224,7 +247,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Face Recognition using ResNet</div>
     <div class="project-description">Detecting facial emotions with deep learning.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Face-Recognition" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Face-Recognition" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -233,7 +256,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Motion Discriminator</div>
     <div class="project-description">Cognitive and neural models for decision-making.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Motion-discriminator" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Motion-discriminator" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -242,7 +265,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Stereotypical Job Beliefs</div>
     <div class="project-description">Assessing gender biases in job roles.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Stereotypical-beliefs-about-jobs" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Stereotypical-beliefs-about-jobs" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -251,7 +274,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Temporal Bisection</div>
     <div class="project-description">Studying time perception by measuring and comparing stimulus durations.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Temporal-Bisection" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Temporal-Bisection" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -260,7 +283,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Wisconsin Task</div>
     <div class="project-description">A neuropsychological test assessing cognitive flexibility, abstract thinking, and working memory.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Wisconsin-Card-Sorting-Test" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Wisconsin-Card-Sorting-Test" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -269,7 +292,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Singular Value Decomposition</div>
     <div class="project-description">Implementation of the SVD algorithm in C for efficient matrix factorization.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Singular-value-decomposition" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Singular-value-decomposition" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -278,7 +301,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">Signal Generator - ARM STM32</div>
     <div class="project-description">Designing a signal generator using ARM STM32 microcontrollers.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/Signal-Generator-ARM-stm32" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/Signal-Generator-ARM-stm32" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -287,7 +310,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">8086 Timer</div>
     <div class="project-description">Designing a programmable timer in the 8086 assembly using Proteus.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/8086-Timer-In-Proteus" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/8086-Timer-In-Proteus" class="project-link"> View Project</a>
   </div>
 </div>
 
@@ -296,7 +319,7 @@ author_profile: true
   <div class="project-content">
     <div class="project-title">PONG Game</div>
     <div class="project-description">A classic Pong game implemented in 8086 assembly using the Emu8086 framework.</div>
-    <a href="https://github.com/EbrahimiAmirHosein/PONG-Game-in-8086-assembly" class="project-link">🔗 View Project</a>
+    <a href="https://github.com/EbrahimiAmirHosein/PONG-Game-in-8086-assembly" class="project-link"> View Project</a>
   </div>
 </div>
 
