@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Amirhosein Ebrahimi"
-  avatar           : "/images/Profile.jpg"
+  avatar           : "Profile.jpg"
   bio              : "ML Research and Engineering"
   location         : "Ottawa / Canada"
   employer         : 

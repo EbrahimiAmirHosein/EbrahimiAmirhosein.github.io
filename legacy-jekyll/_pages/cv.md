@@ -30,4 +30,4 @@ redirect_from:
 }
 </style>
 
-[Download CV](https://github.com/EbrahimiAmirHosein/EbrahimiAmirhosein.github.io/blob/master/files/CV___AHE.pdf)
+<a href="/files/CV___AHE.pdf" download="CV___AHE.pdf">Download CV</a>
