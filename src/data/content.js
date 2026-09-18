@@ -14,21 +14,19 @@ export const profile = {
 
 export const about = {
   intro:
-    "Hi, I'm Amirhossein Ebrahimi, a Master's student in Biomedical Engineering, with a deep passion for Artificial Intelligence in Healthcare.",
+    "Hi, I'm Amirhossein Ebrahimi, an AI/ML researcher and engineer with four years of advanced research experience. I completed my Master of Applied Science in Biomedical Engineering with a specialization in Artificial Intelligence at the University of Ottawa.",
   narrative:
-    "I am currently pursuing my Master’s degree at the University of Ottawa, where I am excited to engage in advanced research at the intersection of AI and healthcare. Under the mentorship of Professor Arvind Mer, I am dedicated to developing innovative solutions that drive meaningful social impact.",
-  mentorLink: "https://scholar.google.com/citations?user=Xy6KKl8AAAAJ&hl=en",
+    "My work spans deep learning, computer vision, time-series analysis, generative modeling, and biomedical AI. I focus particularly on computational pathology and whole-slide histopathology imaging, including weakly supervised learning, medical-image analysis, and rigorous model evaluation and validation. I develop end-to-end Python machine-learning workflows, from data preparation and feature engineering through model development, experimentation, and validation.",
   interestsLead:
-    "I am particularly fascinated by the transformative power of AI in medical applications, with a keen focus on:",
+    "My research interests include:",
   interests: [
+    "Machine Learning and Deep Learning",
     "Computer Vision",
     "Computational Pathology",
     "Bioinformatics",
-    "Explainable AI (XAI)",
-    "Graph Neural Networks",
+    "Generative Modeling",
+    "Explainable and Reliable AI",
   ],
-  goal:
-    "My goal? To push the boundaries of AI-driven innovation in healthcare, bridging the gap between technology and human well-being.",
 };
 
 export const researchIntro =

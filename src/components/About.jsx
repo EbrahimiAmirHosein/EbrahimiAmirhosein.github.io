@@ -12,21 +12,11 @@ export default function About() {
         <div className="about__grid">
           <div className="reveal">
             <p className="about__lead">
-              Hi, I'm <span className="hl">Amirhossein Ebrahimi</span>, a Master's student in
-              Biomedical Engineering, with a deep passion for{" "}
-              <span className="hl">Artificial Intelligence in Healthcare</span>.
+              {about.intro}
             </p>
             <p className="about__body">
-              I am currently pursuing my Master’s degree at the University of Ottawa, where I am
-              excited to engage in advanced research at the intersection of AI and healthcare. Under
-              the mentorship of{" "}
-              <a href={about.mentorLink} target="_blank" rel="noreferrer">
-                Professor Arvind Mer
-              </a>
-              , I am dedicated to developing innovative solutions that drive meaningful social
-              impact.
+              {about.narrative}
             </p>
-            <p className="about__goal">{about.goal}</p>
           </div>
 
           <div className="about__card reveal">
