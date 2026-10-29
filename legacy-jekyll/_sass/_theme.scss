@@ -22,7 +22,7 @@
   --site-primary: #0d9488;
   --site-primary-soft: rgba(13, 148, 136, 0.12);
   --site-accent: #0891b2;
-  --masthead-bg: rgba(255, 255, 255, 0.78);
+  --masthead-bg: #ffffff;
   --masthead-border: rgba(13, 148, 136, 0.14);
   --masthead-shadow: rgba(15, 55, 60, 0.08);
   --masthead-link: #15232b;
@@ -126,6 +126,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .masthead .greedy-nav {
   background: transparent;
+}
+
+/* Collapsed (hamburger) menu follows theme tokens so text stays readable in dark mode */
+.masthead .greedy-nav .hidden-links {
+  background: var(--surface-bg);
+  border-color: var(--site-border);
+
+  &:before { border-color: var(--site-border) transparent; }
+  &:after { border-color: var(--surface-bg) transparent; }
+
+  li { border-bottom-color: var(--site-border); }
+
+  a:hover { background: var(--site-primary-soft); }
+}
+
+/* Sticky sidebar sits below the sticky masthead instead of sliding under it */
+.sidebar.sticky {
+  @include breakpoint($large) {
+    top: 7rem;
+  }
 }
 
 .masthead .greedy-nav a {
@@ -414,7 +434,7 @@ h1, h2, h3, h4, h5, h6 {
   --card-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
   --card-hover-shadow: 0 28px 60px rgba(0, 0, 0, 0.6);
   --card-hover-bg: #122128;
-  --masthead-bg: rgba(7, 16, 21, 0.86);
+  --masthead-bg: #0d171c;
   --masthead-border: rgba(45, 212, 191, 0.16);
   --masthead-shadow: rgba(0, 0, 0, 0.55);
   --masthead-link: #d7f5f1;
