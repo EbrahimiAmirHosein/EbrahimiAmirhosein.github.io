@@ -184,7 +184,7 @@ export const publications = [
     ],
   },
   {
-    group: "Conference Abstract and Preprint",
+    group: "Conference Abstract",
     items: [
       {
         title:
@@ -194,15 +194,6 @@ export const publications = [
         source:
           "Clinical Lymphoma, Myeloma & Leukemia, 2025; 25(Suppl. 2):S153–S154 (poster, 22nd International Myeloma Society Annual Meeting, Toronto)",
         link: "https://doi.org/10.1016/S2152-2650(25)03651-1",
-        linkLabel: "DOI",
-      },
-      {
-        title:
-          "HA-BSN: Hardware Acceleration of Bio-SFA and Bio-NICA, Biological Neural Networks, on FPGA with HLS",
-        authors: "A.H. Ebrahimi, H. Vafaei, M. Asghari, D. Rahmati",
-        highlightAuthor: "A.H. Ebrahimi",
-        source: "SSRN preprint, 2023",
-        link: "https://doi.org/10.2139/ssrn.4517541",
         linkLabel: "DOI",
       },
     ],
