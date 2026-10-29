@@ -102,55 +102,32 @@ export const experience = [
 
 export const publications = [
   {
-    group: "Book Chapter",
-    items: [
-      {
-        title:
-          "First Course in Machine Learning: Dimensionality Reduction in Machine Learning",
-        authors: "Chapters: 1, 3",
-        source: "Elsevier, 2025",
-        link: "https://www.sciencedirect.com/science/article/pii/B9780443328183000095",
-        linkLabel: "Read more",
-      },
-    ],
-  },
-  {
     group: "Journal Articles",
     items: [
       {
         title:
           "Artificial Intelligence-enabled Histological Analysis in Pre-clinical Respiratory Disease Models: A Scoping Review",
-        authors: "E. Kuhar, J. Park, F. Jahandideh, M. Komeili, …, A. Ebrahimi",
-        highlightAuthor: "A. Ebrahimi",
+        authors:
+          "E. Kuhar, J. Park, F. Jahandideh, M. Komeili, A. Sadeknury, N. Kang, P. Karunamurthy, M.R. Zarei, A.H. Ebrahimi, S.E. Gill, P.C. Liaw, D.A. Fergusson, D.J. Stewart, A. Mer, M.M. Lalu",
+        highlightAuthor: "A.H. Ebrahimi",
         source: "European Respiratory Review, 2026; 35(180):250243",
-        link: "https://publications.ersnet.org/content/errev/35/180/250243.abstract",
-        linkLabel: "Read more",
+        link: "https://doi.org/10.1183/16000617.0243-2025",
+        linkLabel: "DOI",
       },
       {
         title:
-          "Deciphering Genomic Correlates of Differential Treatment Response Kinetics in Multiple Myeloma",
-        authors: "Patrick B, A. Ebrahimi, A. Visram, A. Mer",
-        highlightAuthor: "A. Ebrahimi",
-        source: "Clinical Lymphoma, Myeloma & Leukemia, 2025; 25(Suppl. 1):S154",
-        link: "https://doi.org/10.1016/S2152-2650(25)03651-1",
-        linkLabel: "DOI",
+          "High-Performance and Configurable SW/HW Co-Design of Biologically Plausible Neural Networks",
+        authors: "A.H. Ebrahimi, H. Vafaei, M. Asghari, A. Sadr, D. Rahmati",
+        highlightAuthor: "A.H. Ebrahimi",
+        source: "ACM Transactions on Reconfigurable Technology and Systems (TRETS), 2026 (in press)",
       },
       {
         title: "Text-Mining Based Feature Selection for Anticancer Drug Response Prediction",
         authors: "G. Wu, A. Zaker, A.H. Ebrahimi, S. Tripathi, A. Mer",
         highlightAuthor: "A.H. Ebrahimi",
-        source: "Bioinformatics Advances, 2024",
-        link: "https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae047/7644335",
-        linkLabel: "Read more",
-      },
-      {
-        title:
-          "HA-BSN: Hardware Acceleration of Bio-SFA and Bio-NICA, Biological Neural Networks, on FPGA with HLS",
-        authors: "A.H. Ebrahimi, H. Vafaei, M. Asghari, D. Rahmati",
-        highlightAuthor: "A.H. Ebrahimi",
-        source: "Neurocomputing, 2022",
-        link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4517541",
-        linkLabel: "Read more",
+        source: "Bioinformatics Advances, 2024; 4(1):vbae047",
+        link: "https://doi.org/10.1093/bioadv/vbae047",
+        linkLabel: "DOI",
       },
     ],
   },
@@ -162,17 +139,17 @@ export const publications = [
         authors: "A.H. Ebrahimi, R. Afiz, A. Mer",
         highlightAuthor: "A.H. Ebrahimi",
         source:
-          "2026 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB 2026)",
+          "2026 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB 2026) (in press)",
       },
       {
         title:
-          "From Data Annotation to AI Prediction: Streamlining Histopathology Analysis in ARDS",
+          "From Data Annotation to AI Prediction: Streamlining Histopathology Analysis in Acute Respiratory Distress Syndrome",
         authors:
           "A.H. Ebrahimi, M.R. Zarei, E. Kuhar, P. Karunamurthy, K. Pillagawa, F. Jahandideh, M. Komeili, M. Lalu, A. Mer",
         highlightAuthor: "A.H. Ebrahimi",
-        source: "Canadian AI 2025, CAIAC",
-        link: "https://assets.pubpub.org/dwmjptvq/219-31747763773612.pdf",
-        linkLabel: "Read more",
+        source: "Proceedings of the 38th Canadian Conference on Artificial Intelligence (Canadian AI 2025)",
+        link: "https://doi.org/10.21428/594757db.38c6c547",
+        linkLabel: "DOI",
       },
       {
         title: "A New Approach for Minimum Dominating Set Problem",
@@ -189,6 +166,44 @@ export const publications = [
         source: "NIC, 2022",
         link: "https://cs.ipm.ac.ir/nic/1401/files/Final_proceedings_NIC1401.pdf",
         linkLabel: "Page 128",
+      },
+    ],
+  },
+  {
+    group: "Book Chapter",
+    items: [
+      {
+        title: "Basics of Machine Learning",
+        authors: "A.H. Ebrahimi, H.V. Sefat, J.A. Rad",
+        highlightAuthor: "A.H. Ebrahimi",
+        source:
+          "Chapter 1 in Dimensionality Reduction in Machine Learning (J.A. Rad, S. Chakraverty, K. Parand, Eds.), pp. 3–38, Elsevier, 2025",
+        link: "https://doi.org/10.1016/B978-0-44-332818-3.00009-5",
+        linkLabel: "DOI",
+      },
+    ],
+  },
+  {
+    group: "Conference Abstract and Preprint",
+    items: [
+      {
+        title:
+          "Deciphering Genomic Correlates of Differential Treatment Response Kinetics in Multiple Myeloma",
+        authors: "B. Patrick, A.H. Ebrahimi, A. Visram, A. Mer",
+        highlightAuthor: "A.H. Ebrahimi",
+        source:
+          "Clinical Lymphoma, Myeloma & Leukemia, 2025; 25(Suppl. 2):S153–S154 (poster, 22nd International Myeloma Society Annual Meeting, Toronto)",
+        link: "https://doi.org/10.1016/S2152-2650(25)03651-1",
+        linkLabel: "DOI",
+      },
+      {
+        title:
+          "HA-BSN: Hardware Acceleration of Bio-SFA and Bio-NICA, Biological Neural Networks, on FPGA with HLS",
+        authors: "A.H. Ebrahimi, H. Vafaei, M. Asghari, D. Rahmati",
+        highlightAuthor: "A.H. Ebrahimi",
+        source: "SSRN preprint, 2023",
+        link: "https://doi.org/10.2139/ssrn.4517541",
+        linkLabel: "DOI",
       },
     ],
   },
