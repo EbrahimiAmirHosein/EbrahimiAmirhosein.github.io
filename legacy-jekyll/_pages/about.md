@@ -38,10 +38,12 @@ ul.twocol li {
 
 
 <p class="intro">
-Hi, I'm <span class="highlight">Amirhossein Ebrahimi</span>, an AI/ML researcher and engineer with four years of advanced research experience. I completed my Master of Applied Science in Biomedical Engineering with a specialization in Artificial Intelligence at the University of Ottawa.
+Hi, I'm <span class="highlight">Amirhossein Ebrahimi</span>, an AI/ML researcher with 5 years of experience developing machine learning solutions across computer vision, generative modeling, time-series analysis, and large-scale data processing. I completed my Master of Applied Science in Biomedical Engineering with a specialization in Artificial Intelligence at the University of Ottawa.
 </p>
 
-My work spans **deep learning**, **computer vision**, **time-series analysis**, **generative modeling**, and **biomedical AI**. I focus particularly on **computational pathology** and **whole-slide histopathology imaging**, including **weakly supervised learning**, **medical-image analysis**, and rigorous model evaluation and validation. I develop end-to-end Python machine-learning workflows, from data preparation and feature engineering through model development, experimentation, and validation.
+My work spans multiple domains, with a particular focus on **healthcare AI**, **biomedical imaging**, and **computational pathology**. I have experience tackling complex problems involving **gigapixel images**, **high-dimensional biological data**, and **large-scale datasets**, from data preprocessing and model development to optimization, validation, and deployment.
+
+My background combines academic research, peer-reviewed publications, and hands-on development of AI-driven systems. I enjoy exploring new approaches, translating research ideas into practical solutions, and building efficient, reliable models that address real-world challenges.
 
 
 
@@ -49,11 +51,10 @@ My work spans **deep learning**, **computer vision**, **time-series analysis**, 
 My research interests include:
 
 <ul class="twocol" markdown='1'>
-  <li> <b>Machine Learning and Deep Learning</b></li>
-  <li> <b>Computer Vision</b></li>
-  <li> <b>Computational Pathology</b></li>
-  <li> <b>Bioinformatics</b></li>
+  <li> <b>Research and Development (R&amp;D)</b></li>
+  <li> <b>Representation Learning &amp; Self-Supervised Learning</b></li>
   <li> <b>Generative Modeling</b></li>
-  <li> <b>Explainable and Reliable AI</b></li>
+  <li> <b>Weakly Supervised Learning &amp; Multiple Instance Learning</b></li>
+  <li> <b>Large-Scale Machine Learning &amp; Model Optimization</b></li>
 </ul>
 
