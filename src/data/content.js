@@ -3,7 +3,7 @@ export const profile = {
   role: "M.A.Sc. in Biomedical Engineering with a Specialization in Bioinformatics",
   location: "Ottawa / Canada",
   email: "amirh.ebrahimi1377@gmail.com",
-  avatar: "/images/Profile.png",
+  avatar: "/images/ProfileP.png",
   cv: "/CV___AHE.pdf",
   links: {
     github: "https://github.com/EbrahimiAmirHosein",
