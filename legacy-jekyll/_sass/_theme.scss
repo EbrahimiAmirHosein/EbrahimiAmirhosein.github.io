@@ -115,6 +115,13 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-backdrop-filter: blur(16px) saturate(1.2);
   position: sticky;
   top: 0;
+  /* Stay above #main (z-index: 1, later in the DOM) while scrolling */
+  z-index: 20;
+}
+
+/* Reserve room on the right for the fixed theme toggle so it never covers the nav/menu button */
+.masthead .masthead__inner-wrap {
+  padding-right: calc(56px + 2rem);
 }
 
 .masthead .greedy-nav {
