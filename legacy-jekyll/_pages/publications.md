@@ -133,24 +133,6 @@ author_profile: true
 
 <div class="pubs-container">
 
-  <!-- BOOK CHAPTER -->
-  <h2 class="pub-section-title">Book Chapter</h2>
-  <ul class="pub-list">
-    <li class="pub-item">
-      <div class="pub-title">
-        First Course in Machine Learning: Dimensionality Reduction in Machine Learning
-      </div>
-      <div class="pub-authors">Chapters: 1, 3</div>
-      <div class="pub-source">Elsevier, 2025</div>
-      <a
-        class="pub-link"
-        href="https://www.sciencedirect.com/science/article/pii/B9780443328183000095"
-      >
-        Read more
-      </a>
-    </li>
-  </ul>
-
   <!-- JOURNAL ARTICLES -->
   <h2 class="pub-section-title">Journal Articles</h2>
   <ul class="pub-list">
@@ -160,35 +142,30 @@ author_profile: true
         Artificial Intelligence-enabled Histological Analysis in Pre-clinical Respiratory Disease Models: A Scoping Review
       </div>
       <div class="pub-authors">
-        E. Kuhar, J. Park, F. Jahandideh, M. Komeili, …, <b>A. Ebrahimi</b>
+        E. Kuhar, J. Park, F. Jahandideh, M. Komeili, A. Sadeknury, N. Kang, P. Karunamurthy, M.R. Zarei,
+        <b>A.H. Ebrahimi</b>, S.E. Gill, P.C. Liaw, D.A. Fergusson, D.J. Stewart, A. Mer, M.M. Lalu
       </div>
       <div class="pub-source">
         European Respiratory Review, 2026; 35(180):250243
       </div>
       <a
         class="pub-link"
-        href="https://publications.ersnet.org/content/errev/35/180/250243.abstract"
+        href="https://doi.org/10.1183/16000617.0243-2025"
       >
-        Read more
+        DOI
       </a>
     </li>
 
     <li class="pub-item">
       <div class="pub-title">
-        Deciphering Genomic Correlates of Differential Treatment Response Kinetics in Multiple Myeloma
+        High-Performance and Configurable SW/HW Co-Design of Biologically Plausible Neural Networks
       </div>
       <div class="pub-authors">
-        Patrick B, <b>A. Ebrahimi</b>, A. Visram, A. Mer
+        <b>A.H. Ebrahimi</b>, H. Vafaei, M. Asghari, A. Sadr, D. Rahmati
       </div>
       <div class="pub-source">
-        Clinical Lymphoma, Myeloma &amp; Leukemia, 2025; 25(Suppl. 1):S154
+        ACM Transactions on Reconfigurable Technology and Systems (TRETS), 2026 (in press)
       </div>
-      <a
-        class="pub-link"
-        href="https://doi.org/10.1016/S2152-2650(25)03651-1"
-      >
-        DOI
-      </a>
     </li>
 
     <li class="pub-item">
@@ -199,31 +176,13 @@ author_profile: true
         G. Wu, A. Zaker, <b>A.H. Ebrahimi</b>, S. Tripathi, A. Mer
       </div>
       <div class="pub-source">
-        Bioinformatics Advances, 2024
+        Bioinformatics Advances, 2024; 4(1):vbae047
       </div>
       <a
         class="pub-link"
-        href="https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae047/7644335"
+        href="https://doi.org/10.1093/bioadv/vbae047"
       >
-        Read more
-      </a>
-    </li>
-
-    <li class="pub-item">
-      <div class="pub-title">
-        HA-BSN: Hardware Acceleration of Bio-SFA and Bio-NICA, Biological Neural Networks, on FPGA with HLS
-      </div>
-      <div class="pub-authors">
-        <b>A.H. Ebrahimi</b>, H. Vafaei, M. Asghari, D. Rahmati
-      </div>
-      <div class="pub-source">
-        Neurocomputing, 2022
-      </div>
-      <a
-        class="pub-link"
-        href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4517541"
-      >
-        Read more
+        DOI
       </a>
     </li>
 
@@ -241,26 +200,26 @@ author_profile: true
         <b>A.H. Ebrahimi</b>, R. Afiz, A. Mer
       </div>
       <div class="pub-source">
-        2026 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB 2026)
+        2026 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB 2026) (in press)
       </div>
     </li>
 
     <li class="pub-item conference">
       <div class="pub-title">
-        From Data Annotation to AI Prediction: Streamlining Histopathology Analysis in ARDS
+        From Data Annotation to AI Prediction: Streamlining Histopathology Analysis in Acute Respiratory Distress Syndrome
       </div>
       <div class="pub-authors">
         <b>A.H. Ebrahimi</b>, M.R. Zarei, E. Kuhar, P. Karunamurthy,
         K. Pillagawa, F. Jahandideh, M. Komeili, M. Lalu, A. Mer
       </div>
       <div class="pub-source">
-        Canadian AI 2025, CAIAC
+        Proceedings of the 38th Canadian Conference on Artificial Intelligence (Canadian AI 2025)
       </div>
       <a
         class="pub-link"
-        href="https://assets.pubpub.org/dwmjptvq/219-31747763773612.pdf"
+        href="https://doi.org/10.21428/594757db.38c6c547"
       >
-        Read more
+        DOI
       </a>
     </li>
 
@@ -300,6 +259,50 @@ author_profile: true
       </a>
     </li>
 
+  </ul>
+
+  <!-- BOOK CHAPTER -->
+  <h2 class="pub-section-title">Book Chapter</h2>
+  <ul class="pub-list">
+    <li class="pub-item">
+      <div class="pub-title">
+        Basics of Machine Learning
+      </div>
+      <div class="pub-authors">
+        <b>A.H. Ebrahimi</b>, H.V. Sefat, J.A. Rad
+      </div>
+      <div class="pub-source">
+        Chapter 1 in Dimensionality Reduction in Machine Learning (J.A. Rad, S. Chakraverty, K. Parand, Eds.), pp. 3–38, Elsevier, 2025
+      </div>
+      <a
+        class="pub-link"
+        href="https://doi.org/10.1016/B978-0-44-332818-3.00009-5"
+      >
+        DOI
+      </a>
+    </li>
+  </ul>
+
+  <!-- CONFERENCE ABSTRACT -->
+  <h2 class="pub-section-title">Conference Abstract</h2>
+  <ul class="pub-list">
+    <li class="pub-item">
+      <div class="pub-title">
+        Deciphering Genomic Correlates of Differential Treatment Response Kinetics in Multiple Myeloma
+      </div>
+      <div class="pub-authors">
+        B. Patrick, <b>A.H. Ebrahimi</b>, A. Visram, A. Mer
+      </div>
+      <div class="pub-source">
+        Clinical Lymphoma, Myeloma &amp; Leukemia, 2025; 25(Suppl. 2):S153–S154 (poster, 22nd International Myeloma Society Annual Meeting, Toronto)
+      </div>
+      <a
+        class="pub-link"
+        href="https://doi.org/10.1016/S2152-2650(25)03651-1"
+      >
+        DOI
+      </a>
+    </li>
   </ul>
 
 </div>
