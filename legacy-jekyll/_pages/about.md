@@ -38,7 +38,7 @@ ul.twocol li {
 
 
 <p class="intro">
-Hi, I'm <span class="highlight">Amirhossein Ebrahimi</span>, an AI/ML researcher with 5 years of experience developing machine learning solutions across computer vision, generative modeling, time-series analysis, and large-scale data processing. I completed my Master of Applied Science in Biomedical Engineering with a specialization in Artificial Intelligence at the University of Ottawa.
+Hi, I'm <span class="highlight">Amirhossein Ebrahimi</span>, an AI/ML researcher with 5 years of experience developing machine learning solutions across computer vision, generative modeling, time-series analysis, and large-scale data processing. I completed my <a href="https://learner.mycreds.ca/sharelink/2ae9d35e-ba79-4aab-9ec3-daad8e3053b0/e00abb24-21a2-46c2-9c0f-1d90b3e1a028" target="_blank" rel="noopener">Master of Applied Science in Biomedical Engineering</a> with a specialization in Artificial Intelligence at the University of Ottawa.
 </p>
 
 My work spans multiple domains, with a particular focus on **healthcare AI**, **biomedical imaging**, and **computational pathology**. I have experience tackling complex problems involving **gigapixel images**, **high-dimensional biological data**, and **large-scale datasets**, from data preprocessing and model development to optimization, validation, and deployment.
